@@ -22,6 +22,4 @@ socks5-listen = 0.0.0.0:8889
 hide-apple-request = true
 hide-crashlytics-request = true
 hide-udp = false
-use-keyword-filter = true
-keyword-filter-type = (null)
-keyword-filter = icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk,dropbox,spys
+use-keyword-filter = false
