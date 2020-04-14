@@ -10,6 +10,7 @@ dns-server = https://doh.rixcloud.dev/dns-query, https://118.31.13.131/dns-query
 loglevel = notify
 replica = false
 ipv6 = true
+allow-wifi-access = true
 show-error-page-for-reject = true
 exclude-simple-hostnames = true
 always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com
