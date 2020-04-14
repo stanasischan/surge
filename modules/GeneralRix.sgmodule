@@ -21,6 +21,6 @@ proxy-test-url = http://captive.rixcloud.io/generate_204
 hide-apple-request = true
 hide-crashlytics-request = true
 hide-udp = false
-#use-keyword-filter = false
+use-keyword-filter = true
 keyword-filter-type = (null)
 keyword-filter = icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk,dropbox,spys
