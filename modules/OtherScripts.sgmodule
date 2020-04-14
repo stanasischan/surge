@@ -4,7 +4,7 @@
 
 
 [MITM]
-hostname = %APPEND% api.zhihu.com, www.zhihu.com, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, *.snssdk.com, mp.weixin.qq.com, *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com, education.github.com
+hostname = %APPEND% api.zhihu.com, www.zhihu.com, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, *.snssdk.com, mp.weixin.qq.com, *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) US 307
@@ -32,6 +32,3 @@ surge%20bilibili%20account.js = requires-body=1,max-size=0,script-path=https://r
 surge%20bilibili%20view%20relate.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20view%20relate.js,pattern=^https://app.bilibili.com/x/v2/view\?access_key,type=http-response
 surge%20bilibili%20live.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20live.js,pattern=^https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key,type=http-response
 surge%20bilibili%20reply.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20reply.js,pattern=https://api.bilibili.com/x/v2/reply/main?access_key,type=http-response
-
-# > workingcopy.js
-workingcopy.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/workingcopy.js,script-update-interval=0,type=http-response,pattern=^https:\/\/education\.github\.com\/api\/user$
