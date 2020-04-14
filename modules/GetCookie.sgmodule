@@ -1,0 +1,9 @@
+#!name=GeoCookie
+#!desc=获取签到cookies，获取后务必关闭module！
+#!system=ios
+
+[Script]
+# 获取京东Cookie.
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+[MITM]
+hostname = %APPEND% api.m.jd.com
