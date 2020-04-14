@@ -1,5 +1,5 @@
-#!name=Jd Daily Bonus
-#!desc=京东签到
+#!name=Checkin
+#!desc=签到脚本
 #!system=ios
 
 
@@ -7,4 +7,5 @@
 hostname = %APPEND% api.m.jd.com
 
 [Script]
+#京东京豆签到，需要配合GetCookie Script
 https://raw.githubusercontent.com/stanasischan/surge/master/modules/GetCookie.sgmodule
