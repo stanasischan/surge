@@ -1,0 +1,25 @@
+#!name=General
+#!desc=general setting lhie1
+#!system=ios
+
+
+[General]
+tls-provider = openssl
+loglevel = notify
+dns-server = system,1.2.4.8,223.5.5.5,223.6.6.6
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,*.crashlytics.com
+external-controller-access = lhie1@0.0.0.0:6170
+allow-wifi-access = true
+enhanced-mode-by-rule = false
+show-error-page-for-reject = true
+exclude-simple-hostnames = true
+ipv6 = false
+replica = false
+http-listen = 0.0.0.0:8888
+socks5-listen = 0.0.0.0:8889
+
+[Replica]
+hide-apple-request = true
+hide-crashlytics-request = true
+hide-udp = false
+use-keyword-filter = false
