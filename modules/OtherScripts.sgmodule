@@ -6,7 +6,6 @@
 [MITM]
 hostname = %APPEND% api.zhihu.com, www.zhihu.com, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, *.snssdk.com, mp.weixin.qq.com, *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com, education.github.com
 
-# > tiktok
 [URL Rewrite]
 (?<=_region=)CN(?=&) US 307
 (?<=&app_version=)15..(?=.?.?&) 1 307
