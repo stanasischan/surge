@@ -1,17 +1,19 @@
 #!name=OtherScipts
-#!desc=Zhihu/Bilibili/Tik Tok
+#!desc=All others
 #!system=ios
 
 
 [MITM]
-hostname = %APPEND% api.zhihu.com, www.zhihu.com, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, *.snssdk.com, mp.weixin.qq.com, *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com
+hostname = %APPEND% api.zhihu.com, www.zhihu.com, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, *.snssdk.com, mp.weixin.qq.com, *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com, education.github.com
 
+# > tiktok
 [URL Rewrite]
 (?<=_region=)CN(?=&) US 307
 (?<=&app_version=)15..(?=.?.?&) 1 307
 (?<=\?version_code=)15..(?=.?.?&) 1 307
 
 [Script]
+# > douyin
 Aweme.js = script-path=https://raw.githubusercontent.com/stanasischan/Choler/master/Script/Aweme.js,pattern=^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post),type=http-request
 Aweme.js = requires-body=true,script-path=https://raw.githubusercontent.com/stanasischan/Choler/master/Script/Aweme.js,pattern=^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post),type=http-response
 WeChat.js = script-path=https://raw.githubusercontent.com/stanasischan/Choler/master/Script/WeChat.js,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,type=http-request
@@ -22,6 +24,8 @@ surge%20zhihu%20feed.js = requires-body=1,max-size=0,script-path=https://raw.git
 surge%20zhihu%20recommend.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20zhihu%20recommend.js,pattern=^https://api.zhihu.com/topstory/recommend,type=http-response
 surge%20zhihu%20answer.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20zhihu%20answer.js,pattern=^https://api.zhihu.com/v4/questions,type=http-response
 surge%20zhihu%20people.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20zhihu%20people.js,pattern=^https://api.zhihu.com/people/,type=http-response
+
+# > bilibili
 surge%20bilibili%20space.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20space.js,pattern=^https://app.bilibili.com/x/v2/space\?access_key,type=http-response
 surge%20bilibili%20tab.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20tab.js,pattern=^https://app.bilibili.com/x/resource/show/tab\?access_key,type=http-response
 surge%20bilibili%20feed.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20feed.js,pattern=^https://app.bilibili.com/x/v2/feed/index\?access_key,type=http-response
@@ -29,3 +33,6 @@ surge%20bilibili%20account.js = requires-body=1,max-size=0,script-path=https://r
 surge%20bilibili%20view%20relate.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20view%20relate.js,pattern=^https://app.bilibili.com/x/v2/view\?access_key,type=http-response
 surge%20bilibili%20live.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20live.js,pattern=^https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key,type=http-response
 surge%20bilibili%20reply.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/onewayticket255/master/surge%20bilibili%20reply.js,pattern=https://api.bilibili.com/x/v2/reply/main?access_key,type=http-response
+
+# > workingcopy.js
+workingcopy.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/workingcopy.js,script-update-interval=0,type=http-response,pattern=^https:\/\/education\.github\.com\/api\/user$
