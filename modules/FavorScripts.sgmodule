@@ -21,7 +21,3 @@ nf_rating.js = requires-body=1,script-path=https://raw.githubusercontent.com/yic
 
 # Display jd historical price
 jd_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),type=http-response
-
-
-# 京东多合一签到
-cron ”5 0 * * *“ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js

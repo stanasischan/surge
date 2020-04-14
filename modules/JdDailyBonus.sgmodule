@@ -1,0 +1,10 @@
+#!name=Jd Daily Bonus
+#!desc=京东签到
+#!system=ios
+
+
+[MITM]
+hostname = %APPEND% api.m.jd.com
+
+[Script]
+https://raw.githubusercontent.com/stanasischan/surge/master/modules/GetCookie.sgmodule
