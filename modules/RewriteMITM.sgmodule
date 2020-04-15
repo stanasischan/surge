@@ -4,20 +4,6 @@
 
 
 [URL Rewrite]
-^https?://(www.)?g.cn https://www.google.com 302
-^https?://(www.)?google.cn https://www.google.com 302
-^https?://coupon.m.jd.com/ https://coupon.m.jd.com/ 302
-^https?://h5.m.jd.com/ https://h5.m.jd.com/ 302
-^https?://item.m.jd.com/ https://item.m.jd.com/ 302
-^https?://m.jd.com/ https://m.jd.com/ 302
-^https?://newcz.m.jd.com/ https://newcz.m.jd.com/ 302
-^https?://p.m.jd.com/ https://p.m.jd.com/ 302
-^https?://so.m.jd.com/ https://so.m.jd.com/ 302
-^https?://union.click.jd.com/jda? http://union.click.jd.com/jda?adblock= header
-^https?://union.click.jd.com/sem.php? http://union.click.jd.com/sem.php?adblock= header
-^https?://www.jd.com/ https://www.jd.com/ 302
-^https?://m.taobao.com/ https://m.taobao.com/ 302
-
 
 # AbeamTV Unlock
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
@@ -607,36 +593,6 @@
 
 #===============================================================================
 
-# 重定向 HTTP 请求或者篡改请求 Header
-[Header Rewrite]
-
-// 百度
-^*.bdimg.com header-del Referer
-
-// 腾讯
-^*.qpic.cn header-replace User-Agent WeChat/6.5.22.32 CFNetwork/889.9 Darwin/17.2.0
-^*.qpic.cn header-del Referer
-
-// 网易
-^*.ph.126.net header-del Referer
-
-// 知乎
-^*.zhimg.com header-del Referer
-
-// 中文业界资讯站
-^*.cnbetacdn.com header-del Referer
-
-// 至顶网
-^*.zhiding.cn header-del Referer
-
-// C114通信网
-^*.c114.com.cn header-del Referer
-
-// 笔趣阁
-^https?://www.biquge.com.tw header-del Cookie
-
-// 知乎
-^https?://www.zhihu.com/question/ header-replace User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.45 Safari/537.36
 
 [Host]
 ip6-localhost = ::1
