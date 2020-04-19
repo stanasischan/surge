@@ -1,5 +1,5 @@
 #!name=GetCookie
-#!desc=获取签到cookies，获取后务必关闭module！
+#!desc=获取签到cookies，获取后建议关闭module！
 #!system=ios
 
 [Script]

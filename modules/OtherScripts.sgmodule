@@ -4,12 +4,24 @@
 
 
 [MITM]
-hostname = %APPEND% api.zhihu.com, www.zhihu.com, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, *.snssdk.com, mp.weixin.qq.com, *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com
+hostname = %APPEND% api.zhihu.com, www.zhihu.com, app.bilibili.com, api.bilibili.com, api.live.bilibili.com, *.snssdk.com, mp.weixin.qq.com, *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com, duckduckgo.com
 
 [URL Rewrite]
+# >>TikTok unlock
 (?<=_region=)CN(?=&) US 307
 (?<=&app_version=)15..(?=.?.?&) 1 307
 (?<=\?version_code=)15..(?=.?.?&) 1 307
+
+# >>safari duckduck go mode quick search
+# | bd=百度搜索 | gh=github搜索 | gm=google图片搜索 | yd=有道搜索 | 无指令直接Google
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
 
 [Script]
 # > douyin
