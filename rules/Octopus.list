@@ -1,5 +1,5 @@
 # > Octopus八达通
-USER-AGENT,octopus*
+USER-AGENT,*octopus*
 DOMAIN-SUFFIX,octopus-cards.com
 DOMAIN-SUFFIX,octopuscards.com
 DOMAIN-SUFFIX,octopus.com.hk
