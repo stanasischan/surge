@@ -1,6 +1,6 @@
 #!name=Rewrite/Host/MITM
 #!desc=Rewrite/Host/MITM
-#!system=ios
+#!system=mac
 
 
 [URL Rewrite]
