@@ -24,3 +24,6 @@ hide-udp = false
 # > 关键词过滤器
 keyword-filter-type= (null)
 keyword-filter= icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk,dropbox,spys
+
+# macOS Only
+enhanced-mode-by-rule = false
