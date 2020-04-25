@@ -22,7 +22,7 @@
 
 # Redirect False to True
 # >> IGN China to IGN Global
-^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
+^https?:\/\/(www.)?ign\.xn—fiqs8s\/ http://cn.ign.com/ccpref/us 302
 # >> Fake Website Made By Makeding
 ^https?:\/\/(www.)?abbyychina\.com\/ http://www.abbyy.cn/ 302
 ^https?:\/\/(www.)?bartender\.cc\/ https://cn.seagullscientific.com 302
@@ -589,8 +589,15 @@
 ^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 - reject
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
 
-
-
+[Header Rewrite]
+#eHpo1 main config
+# 百度贴吧
+^https?+:\/\/(?:c\.)?+tieba\.baidu\.com\/(?>f|p) header-replace User-Agent ”Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15“
+^https?+:\/\/jump2\.bdimg\.com\/(?>f|p) header-replace User-Agent ”Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15“
+# 百度知道
+^https?+:\/\/zhidao\.baidu\.com header-replace User-Agent ”Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15“
+# 知乎
+^https?+:\/\/www\.zhihu\.com\/question header-replace User-Agent ”Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15“
 
 [Host]
 
@@ -636,4 +643,4 @@ amplifi.lan = server:system
 skip-server-cert-verify = true
 tcp-connection = true
 
-hostname = %APPEND%  -*.googlevideo.com, *.abema.tv, *.amemv.com, *.chelaile.net.cn, *.didistatic.com, *.googlevideo.com, *.google-analytics.com, *.iydsj.com, *.k.sohu.com, *.kfc.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pixiv.net, *.pstatp.com, *.rixcloudservice.com, *.snssdk.com, *.uve.weibo.com, *.wikipedia.org, *.wikiwand.com, *.ydstatic.com, *.youdao.com, *.youtube.com, *.zhuishushenqi.com, 119.18.193.135, 123.59.31.1, 153.3.236.81, 180.101.212.22, 218.11.3.70, 59.151.53.6, a.apicloud.com, a.applovin.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, abema.tv, acs.m.taobao.com, act.vip.iqiyi.com, adse.ximalaya.com, api*.amemv.com, api*.musical.ly, api*.tiktokv.com, api-release.wuta-cam.com, api.abema.io, api.bilibili.com, api.daydaycook.com.cn, api.gotokeep.com, api.intsig.net, api.jr.mi.com, api.jxedt.com, api.kkmh.com, api.m.jd.com, api.mgzf.com, api.psy-1.com, api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.wallstreetcn.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api.zhuishushenqi.com, api5.futunn.com, app.10086.cn, app.58.com, app.api.ke.com, app.bilibili.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.mwee.cn, cdn.moji.com, channel.beitaichufang.com, client.mail.163.com, cms.daydaycook.com.cn, dspsdk.abreader.com, fdfs.xmcdn.com, gateway.shouqiev.com, gw-passenger.01zhuanche.com, gw.alicdn.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, iapi.bishijie.com, iface.iqiyi.com, img*.doubanio.com, img.jiemian.com, interface.music.163.com, ios.wps.cn, m*.amap.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.yap.yahoo.com, mapi.mafengwo.cn, mapi.weibo.com, media.qyer.com, mi.gdt.qq.com, mob.mddcloud.com.cn, mobile-api2011.elong.com, mp.weixin.qq.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, portal-xunyou.qingcdn.com, pss.txffp.com, r.inews.qq.com, render.alipay.com, res-release.wuta-cam.com, richmanapi.jxedt.com, service.4gtv.tv, smkmp.96225.com, snailsleep.net, sp.kaola.com, ssl.kohsocialapp.qq.com, static.vuevideo.net, static1.keepcdn.com, support.you.163.com, thor.weidian.com, www.dandanzan.com, www.flyertea.com, www.zhihu.com, youtubei.googleapis.com, zhidao.baidu.com
+hostname = %APPEND%  -*.googlevideo.com, *.abema.tv, *.amemv.com, *.chelaile.net.cn, *.didistatic.com, *.googlevideo.com, *.google-analytics.com, *.iydsj.com, *.k.sohu.com, *.kfc.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pixiv.net, *.pstatp.com, *.rixcloudservice.com, *.snssdk.com, *.uve.weibo.com, *.wikipedia.org, *.wikiwand.com, *.ydstatic.com, *.youdao.com, *.youtube.com, *.zhuishushenqi.com, 119.18.193.135, 123.59.31.1, 153.3.236.81, 180.101.212.22, 218.11.3.70, 59.151.53.6, a.apicloud.com, a.applovin.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, abema.tv, acs.m.taobao.com, act.vip.iqiyi.com, adse.ximalaya.com, api*.amemv.com, api*.musical.ly, api*.tiktokv.com, api-release.wuta-cam.com, api.abema.io, api.bilibili.com, api.daydaycook.com.cn, api.gotokeep.com, api.intsig.net, api.jr.mi.com, api.jxedt.com, api.kkmh.com, api.m.jd.com, api.mgzf.com, api.psy-1.com, api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.wallstreetcn.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api.zhuishushenqi.com, api5.futunn.com, app.10086.cn, app.58.com, app.api.ke.com, app.bilibili.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.mwee.cn, cdn.moji.com, channel.beitaichufang.com, client.mail.163.com, cms.daydaycook.com.cn, dspsdk.abreader.com, fdfs.xmcdn.com, gateway.shouqiev.com, gw-passenger.01zhuanche.com, gw.alicdn.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, iapi.bishijie.com, iface.iqiyi.com, img*.doubanio.com, img.jiemian.com, interface.music.163.com, ios.wps.cn, m*.amap.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.yap.yahoo.com, mapi.mafengwo.cn, mapi.weibo.com, media.qyer.com, mi.gdt.qq.com, mob.mddcloud.com.cn, mobile-api2011.elong.com, mp.weixin.qq.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, portal-xunyou.qingcdn.com, pss.txffp.com, r.inews.qq.com, render.alipay.com, res-release.wuta-cam.com, richmanapi.jxedt.com, service.4gtv.tv, smkmp.96225.com, snailsleep.net, sp.kaola.com, ssl.kohsocialapp.qq.com, static.vuevideo.net, static1.keepcdn.com, support.you.163.com, thor.weidian.com, tieba.baidu.com, www.dandanzan.com, www.flyertea.com, www.tieba.com, www.zhihu.com, www.youtube.com, youtubei.googleapis.com, zhidao.baidu.com
