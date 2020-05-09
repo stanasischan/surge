@@ -1,5 +1,6 @@
-#!name=Profiles
-#!desc=Profile setting
+
+#!name=Profile
+#!desc=general profile setting
 #!system=mac
 
 
@@ -7,9 +8,17 @@
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,169.254.0.0/16,224.0.0.0/4,240.0.0.0/4
 dns-server = 1.2.4.8, 119.29.29.29, 223.5.5.5
-doh-server = https://doh.rixcloud.dev/dns-query, https://118.31.13.131/dns-query, https://120.25.25.166/dns-query, https://139.224.112.177/dns-query, https://47.108.56.233/dns-query, https://59.110.53.209/dns-query
+doh-server = https://dns.alidns.com/dns-query, https://59.110.53.209/dns-query, https://118.31.13.131/dns-query
+#rixCloud doh servers
+#https://doh.rixcloud.dev/dns-query #上海
+#https://118.31.13.131/dns-query #杭州
+#https://120.25.25.166/dns-query #深圳
+#https://139.224.112.177/dns-query #上海
+#https://47.108.56.233/dns-query #成都
+#https://59.110.53.209/dns-query #北京
+doh-format = wireformat
 loglevel = notify
-ipv6 = true
+ipv6 = false
 allow-wifi-access = true
 show-error-page-for-reject = true
 exclude-simple-hostnames = true
@@ -19,16 +28,15 @@ proxy-test-url = http://captive.rixcloud.io/generate_204
 
 [Replica]
 hide-apple-request = true
-hide-crashlytics-request = true
+hide-crash-reporter-request = 1
 hide-udp = false
 # > 关键词过滤器
 keyword-filter-type= (null)
 keyword-filter= icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk,dropbox,spys
 
-# macOS Only
-# enhanced-mode-by-rule = false
-
-
+#[SSID Setting]
+# ”lovelifeasus_5G“ suspend=true
+# ”lovelifeasus“ suspend=true
 
 [URL Rewrite]
 
