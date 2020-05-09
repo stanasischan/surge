@@ -7,7 +7,7 @@
 [General]
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,169.254.0.0/16,224.0.0.0/4,240.0.0.0/4
-dns-server = 1.2.4.8, 119.29.29.29, 223.5.5.5
+#dns-server = 1.2.4.8, 119.29.29.29, 223.5.5.5
 doh-server = https://dns.alidns.com/dns-query, https://59.110.53.209/dns-query, https://118.31.13.131/dns-query
 #rixCloud doh servers
 #https://doh.rixcloud.dev/dns-query #上海
