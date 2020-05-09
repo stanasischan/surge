@@ -1,7 +1,6 @@
-#!name=Profile
-#!desc=general profile setting
+#!name=profiles
+#!desc=general profiles setting
 #!system=mac
-
 
 [General]
 bypass-system = true
@@ -33,9 +32,7 @@ hide-udp = false
 keyword-filter-type= (null)
 keyword-filter= icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk,dropbox,spys
 
-#[SSID Setting]
-# ”lovelifeasus_5G“ suspend=true
-# ”lovelifeasus“ suspend=true
+
 
 [URL Rewrite]
 
