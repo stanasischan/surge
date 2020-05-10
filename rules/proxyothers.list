@@ -1,4 +1,6 @@
 # > TikTok
+USER-AGENT,*tiktok*
+DOMAIN-KEYWORD,tiktok
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,musical.ly
