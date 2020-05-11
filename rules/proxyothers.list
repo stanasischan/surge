@@ -1,6 +1,9 @@
 # > TikTok
-USER-AGENT,*tiktok*
 DOMAIN-KEYWORD,tiktok
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,musical.ly
+USER-AGENT,TikTok*
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-KEYWORD,-tiktokcdn-com
