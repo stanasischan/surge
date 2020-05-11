@@ -25,7 +25,7 @@ internet-test-url = http://www.aliyun.com
 proxy-test-url = http://captive.rixcloud.io/generate_204
 
 # macOS Only
-enhanced-mode-by-rule = true
+enhanced-mode-by-rule = false
 
 
 [Replica]
