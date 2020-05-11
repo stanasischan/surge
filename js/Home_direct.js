@@ -12,9 +12,12 @@ TG频道:@meetashare
 var wifiname = $network.wifi.ssid;
 var proxywifi = "lovelifeasus_5G";
 if (wifiname == proxywifi){
-	$surge.setOutboundMode("direct");
+    $surge.setOutboundMode("direct");
+    $notification.post("SSID ON","Surge Direct Mode","");
+    
 }
 else{
-	$surge.setOutboundMode("rule");
+    $surge.setOutboundMode("rule");
+    $notification.post("SSID OFF","Surge Rules Mode","");
 }
 $done();
