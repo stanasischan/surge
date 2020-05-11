@@ -13,11 +13,11 @@ var wifiname = $network.wifi.ssid;
 var proxywifi = "lovelifeasus_5G";
 if (wifiname == proxywifi){
     $surge.setOutboundMode("direct");
-    $notification.post("SSID ON","Surge Direct Mode","");
+//    $notification.post("SSID ON","Surge Direct Mode","");
     
 }
 else{
     $surge.setOutboundMode("rule");
-    $notification.post("SSID OFF","Surge Rules Mode","");
+//    $notification.post("SSID OFF","Surge Rules Mode","");
 }
 $done();
