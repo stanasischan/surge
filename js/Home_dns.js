@@ -1,4 +1,4 @@
-var proxywifi = ["lovelifeasus","lovelifeasus_5G"];
+var proxywifi = ["lovelife","lovelife_5G"];
 for (var i = 0; i < proxywifi.length; i++) {
 	if ($network.wifi.ssid==proxywifi[i]){		 $done({ server:'198.18.0.2' })
 	
