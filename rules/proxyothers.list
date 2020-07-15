@@ -12,3 +12,6 @@ DOMAIN-KEYWORD,-tiktokcdn-com
 DOMAIN-KEYWORD,peacocktv
 DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,Peacock*
+DOMAIN-KEYWORD,-nbcstreaming-net
+DOMAIN-KEYWORD,-nbcstreaming-com
+DOMAIN,nbcstreaming.sc.omtrdc.net
