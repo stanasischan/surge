@@ -1,0 +1,30 @@
+# > Disney+
+USER-AGENT,Disney*
+DOMAIN,cdn.registerdisney.go.com
+DOMAIN,cdn.cdn.unid.go.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,disney.demdex.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+
+# > HBO Max
+USER-AGENT,HBOMAX*
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,hbomax.com
+
+# > Hulu
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+DOMAIN-KEYWORD,hulu
+DOMAIN,assetshuluimcom-a.akamaihd.net
+USER-AGENT,*hulu*
+DOMAIN-SUFFIX,newrelic.com
+DOMAIN-SUFFIX,tealiumiq.com
+
