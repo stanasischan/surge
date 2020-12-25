@@ -28,3 +28,7 @@ USER-AGENT,*hulu*
 DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,tealiumiq.com
 
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,espncdn.com
+DOMAIN-KEYWORD,espn
+USER-AGENT,*espn*
