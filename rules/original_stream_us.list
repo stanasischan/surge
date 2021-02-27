@@ -19,3 +19,14 @@ DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espncdn.com
 DOMAIN-KEYWORD,espn
 USER-AGENT,*espn*
+
+DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,cbsstatic.com
+DOMAIN-SUFFIX,cbs.com
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsig.net
+USER-AGENT,cbs*
+
+
+
+
