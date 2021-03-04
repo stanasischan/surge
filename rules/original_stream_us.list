@@ -15,18 +15,43 @@ USER-AGENT,*hulu*
 DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,tealiumiq.com
 
+# > espn
 DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espncdn.com
 DOMAIN-KEYWORD,espn
 USER-AGENT,*espn*
 
-DOMAIN-SUFFIX,cbsivideo.com
-DOMAIN-SUFFIX,cbsstatic.com
+# > Paramount plus
+USER-AGENT,PPlus*
+DOMAIN-KEYWORD,cbs
+DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,cbs.com
 DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,cbsstatic.com
 DOMAIN-SUFFIX,cbsig.net
-USER-AGENT,cbs*
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,imrworldwide.com
+DOMAIN-SUFFIX,cws.conviva.com
+DOMAIN,kvinit-prod.api.kochava.com
+DOMAIN,i-amlg-prod.appspot.com
+DOMAIN,cbs.penthera.com
 
+# > Peacock TV
+DOMAIN-SUFFIX,peacocktv.com
+USER-AGENT,Peacock*
+DOMAIN-KEYWORD,nbcstreaming
+DOMAIN-KEYWORD,peacocktv
+
+# > Discovery Plus
+USER-AGENT,Dplay*
+DOMAIN-SUFFIX,litix.io
+DOMAIN-SUFFIX,discoveryplus.com
+DOMAIN-SUFFIX,disco-api.com
+DOMAIN-SUFFIX,us1-prod-direct.discoveryplus.com
+DOMAIN-SUFFIX,getblueshift.com
+DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
 
 
 
