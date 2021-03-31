@@ -1,4 +1,8 @@
 DOMAIN-SUFFIX,europe-fastly-mediashield-live-prod.cdn.h264.io
 DOMAIN,a9010d017688211ea9afe0620acb249f-596514373.us-east-1.elb.amazonaws.com
 DOMAIN-SUFFIX,eurosport-dlvr-ott.akamaized.net
+DOMAIN-SUFFIX,pfld0qg7tn2m958npaamp558n.litix.io
+DOMAIN-SUFFIX,eu3-prod-images.disco-api.com
+DOMAIN-SUFFIX,keys.vdp.h264.io
+DOMAIN-SUFFIX,e7329.dscf.akamaiedge.net
 USER-AGENT,Eurosport Player*
