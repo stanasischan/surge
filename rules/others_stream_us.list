@@ -3,12 +3,3 @@ DOMAIN-KEYWORD,peacocktv
 DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,Peacock*
 DOMAIN-KEYWORD,nbcstreaming
-
-# > Discovery Plus
-USER-AGENT,Dplay*
-DOMAIN-SUFFIX,litix.io
-DOMAIN-SUFFIX,discoveryplus.com
-DOMAIN-SUFFIX,disco-api.com
-DOMAIN-SUFFIX,us1-prod-direct.discoveryplus.com
-DOMAIN-SUFFIX,getblueshift.com
-DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
