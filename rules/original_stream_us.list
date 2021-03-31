@@ -42,13 +42,13 @@ DOMAIN-KEYWORD,nbcstreaming
 DOMAIN-KEYWORD,peacocktv
 
 # > Discovery Plus
-USER-AGENT,Dplay*
-DOMAIN-SUFFIX,litix.io
-DOMAIN-SUFFIX,discoveryplus.com
-DOMAIN-SUFFIX,disco-api.com
-DOMAIN-SUFFIX,us1-prod-direct.discoveryplus.com
-DOMAIN-SUFFIX,getblueshift.com
-DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
+#USER-AGENT,Dplay*
+#DOMAIN-SUFFIX,litix.io
+#DOMAIN-SUFFIX,discoveryplus.com
+#DOMAIN-SUFFIX,disco-api.com
+#DOMAIN-SUFFIX,us1-prod-direct.discoveryplus.com
+#DOMAIN-SUFFIX,getblueshift.com
+#DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
 
 
 
