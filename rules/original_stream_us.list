@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,hulustream.com
 DOMAIN-KEYWORD,hulu
 DOMAIN,assetshuluimcom-a.akamaihd.net
 USER-AGENT,*hulu*
-DOMAIN-SUFFIX,newrelic.com
+#DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,tealiumiq.com
 
 # > espn
