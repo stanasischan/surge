@@ -14,4 +14,5 @@ DOMAIN-SUFFIX,dpm.demdex.net
 DOMAIN-SUFFIX,discoverydp.sc.omtrdc.net
 DOMAIN-SUFFIX,eu3-prod-images.disco-api.com
 DOMAIN-SUFFIX,mobile-collector.newrelic.com
+DOMAIN-SUFFIX,global-prod.disco-api.com:443
 USER-AGENT,Eurosport Player*
