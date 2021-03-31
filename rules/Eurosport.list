@@ -12,4 +12,6 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,assets.adobedtm.com
 DOMAIN-SUFFIX,dpm.demdex.net
 DOMAIN-SUFFIX,discoverydp.sc.omtrdc.net
+DOMAIN-SUFFIX,eu3-prod-images.disco-api.com
+DOMAIN-SUFFIX,mobile-collector.newrelic.com
 USER-AGENT,Eurosport Player*
