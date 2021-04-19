@@ -20,4 +20,5 @@ DOMAIN-SUFFIX,mobile-collector.newrelic.com
 #DOMAIN-SUFFIX,a1869.v.akamai.net
 DOMAIN-SUFFIX,media-shield.live.eurosport.map.fastly.net
 DOMAIN-SUFFIX,global-prod.disco-api.com:443
+DOMAIN-SUFFIX,pool.ntp.org
 USER-AGENT,Eurosport*
