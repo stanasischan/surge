@@ -23,7 +23,6 @@ USER-AGENT,*espn*
 
 # > Paramount plus
 USER-AGENT,PPlus*
-DOMAIN-KEYWORD,cbs
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pplusstatic.com
 DOMAIN-SUFFIX,cbs.com
@@ -34,6 +33,13 @@ DOMAIN-SUFFIX,cbsstatic.com
 DOMAIN-SUFFIX,cbsig.net
 DOMAIN,cbs.penthera.com
 DOMAIN,cbsi.live.ott.irdeto.com
+// CBS live
+DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN-KEYWORD,cbs
+
+# DOMAIN,pubads.g.doubleclick.net 不可屏蔽
+
 
 # > Peacock TV
 DOMAIN-SUFFIX,peacocktv.com
