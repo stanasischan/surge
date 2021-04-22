@@ -1,0 +1,17 @@
+# > CATCHPLAY+
+USER-AGENT,CATCHPLAY*
+DOMAIN-SUFFIX,catchplay.com
+DOMAIN,asiaplay-origin.s3.amazonaws.com
+DOMAIN,tra-ww000-cp.akamaized.net
+DOMAIN,ols-ww000-cp.akamaized.net
+DOMAIN,ols-ww100-cp.akamaized.net
+DOMAIN,dkfhw9rzsr80z.cloudfront.net
+
+# > friDay
+USER-AGENT,friDay*
+DOMAIN-SUFFIX,friday.tw
+
+# > LINE TV
+USER-AGENT,LINE%20TV*
+DOMAIN-SUFFIX,linetv.tw
+DOMAIN,d3c7rimkq79yfu.cloudfront.net
