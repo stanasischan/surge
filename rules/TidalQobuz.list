@@ -1,0 +1,6 @@
+# > TIDAL
+USER-AGENT,TIDAL*
+DOMAIN-SUFFIX,tidal.com
+# > QOBUZ
+USER-AGENT,Qobuz*
+DOMAIN-SUFFIX,qobuz.com
