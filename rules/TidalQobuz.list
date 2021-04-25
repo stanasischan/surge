@@ -1,6 +1,10 @@
 # > TIDAL
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
+DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
+DOMAIN-SUFFIX,tidalhifi.com
+DOMAIN-SUFFIX,wimpmusic.com
+USER-AGENT,TIDAL*dia
 # > QOBUZ
 USER-AGENT,Qobuz*
 DOMAIN-SUFFIX,qobuz.com
