@@ -7,13 +7,17 @@ DOMAIN-SUFFIX,tv.apple.com
 #DOMAIN,hls-amt.itunes.apple.com // Trailers
 DOMAIN,play-edge.itunes.apple.com // Unblock Region
 
+
 # > Apple News and Apple Map TOMTOM Version
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,gateway.icloud.com
 DOMAIN,gspe1-ssl.ls.apple.com
-PROCESS-NAME,News
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
-DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.news
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+PROCESS-NAME,news
+
