@@ -22,3 +22,10 @@ DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 USER-AGENT,LINE%20TV*
 PROCESS-NAME,com.linecorp.linetv
+
+# > KKTV
+DOMAIN,kktv-theater.kk.stream
+DOMAIN-SUFFIX,kktv.com.tw
+DOMAIN-SUFFIX,kktv.me
+USER-AGENT,KKTV*
+USER-AGENT,com.kktv.ios.kktv*
