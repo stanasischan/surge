@@ -1,6 +1,5 @@
 # > DAZN
 DOMAIN-SUFFIX,dazn.com
-DOMAIN-SUFFIX,uefa.tv
 DOMAIN-SUFFIX,cdn.dazn.com
 DOMAIN-SUFFIX,void.dazn.com
 DOMAIN-SUFFIX,isl-jp.dazn.com
@@ -61,5 +60,4 @@ DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,indazn.com
 DOMAIN-KEYWORD,livedazn
 DOMAIN-KEYWORD,voddazn
-DOMAIN-KEYWORD,uefa
 DOMAIN-KEYWORD,dazn
