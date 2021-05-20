@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazndn.com
 DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com
 DOMAIN-SUFFIX,entitlement.ap.theplatform.com
+DOMAIN-SUFFIX,fairplay.entitlement.us.theplatform.com
 DOMAIN-SUFFIX,entitlement.eu.theplatform.com
 DOMAIN-SUFFIX,fairplay.entitlement.sea.ap.theplatform.com
 DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net
