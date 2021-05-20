@@ -1,6 +1,4 @@
 # > DAZN
-DOMAIN-SUFFIX,logx.optimizely.com
-DOMAIN-SUFFIX,combine.urbanairship.com
 DOMAIN-SUFFIX,a782.dscw16.akamai.net
 DOMAIN-SUFFIX,a671.dscw16.akamai.net
 DOMAIN-SUFFIX,a1956.dscb.akamai.net
@@ -51,7 +49,7 @@ DOMAIN-SUFFIX,indazn.com
 DOMAIN-SUFFIX,intercom.io  
 DOMAIN,4ae1981d8d1a370d08bf3d24f50f5baf47ef1b62.cws.conviva.com
 #DOMAIN-SUFFIX,cws.conviva.com
-#DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sentry.io
 DOMAIN,players.brightcove.net
 DOMAIN,edge.api.brightcove.com
 USER-AGENT,DAZN*
