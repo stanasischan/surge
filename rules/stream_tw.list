@@ -13,6 +13,9 @@ USER-AGENT,friDay*
 DOMAIN-SUFFIX,friday.tw
 DOMAIN-SUFFIX,fetnet.net
 
+# > Gagaoolala
+DOMAIN-SUFFIX,gagaoolala.com
+
 # > LINE TV
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
