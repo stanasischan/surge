@@ -1,4 +1,4 @@
 # > Emby imm
 DOMAIN-SUFFIX,emby.immtel.com
-DOMAIN-SUFFIX,api.themoviedb.org
+#DOMAIN-SUFFIX,api.themoviedb.org
 USER-AGENT,Infuse*
