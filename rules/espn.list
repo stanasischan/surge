@@ -1,4 +1,4 @@
 DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espncdn.com
-DOMAIN-KEYWORD,espn
 USER-AGENT,*espn*
+DOMAIN-KEYWORD,espn
