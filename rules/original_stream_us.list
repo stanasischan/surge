@@ -55,6 +55,6 @@ DOMAIN-SUFFIX,disco-api.com
 DOMAIN-SUFFIX,dnitv.com
 DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
 DOMAIN-SUFFIX,uplynk.com
-DOMAIN-SUFFIX,litix.io
+#DOMAIN-SUFFIX,litix.io
 DOMAIN,kvinit-prod.api.kochava.com
 DOMAIN-KEYWORD,discoveryplus
