@@ -46,15 +46,3 @@ DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,Peacock*
 DOMAIN-KEYWORD,nbcstreaming
 DOMAIN-KEYWORD,peacocktv
-
-# > Discovery Plus
-USER-AGENT,discovery+*
-USER-AGENT,DPlus*
-DOMAIN-SUFFIX,discoveryplus.com
-DOMAIN-SUFFIX,disco-api.com
-DOMAIN-SUFFIX,dnitv.com
-DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
-DOMAIN-SUFFIX,uplynk.com
-DOMAIN-SUFFIX,litix.io
-DOMAIN,kvinit-prod.api.kochava.com
-DOMAIN-KEYWORD,discoveryplus
