@@ -1,5 +1,3 @@
-# > Emby imm
-DOMAIN-SUFFIX,emby.immtel.com
-#DOMAIN-SUFFIX,api.themoviedb.org
-USER-AGENT,Infuse*
+# > Embypub
 DOMAIN-SUFFIX,emby.wtf
+USER-AGENT,Infuse*
