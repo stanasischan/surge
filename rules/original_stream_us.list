@@ -16,10 +16,10 @@ USER-AGENT,*hulu*
 DOMAIN-SUFFIX,tealiumiq.com
 
 # > espn
-DOMAIN-SUFFIX,espn.com
-DOMAIN-SUFFIX,espncdn.com
-DOMAIN-KEYWORD,espn
-USER-AGENT,*espn*
+#DOMAIN-SUFFIX,espn.com
+#DOMAIN-SUFFIX,espncdn.com
+#DOMAIN-KEYWORD,espn
+#USER-AGENT,*espn*
 
 # > Paramount plus
 USER-AGENT,PPlus*
