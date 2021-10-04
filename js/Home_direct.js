@@ -10,7 +10,7 @@ TG频道:@meetashare
 */
 /* #单wifi代码
 var wifiname = $network.wifi.ssid;
-var proxywifi = "lovelifeasus_5G";
+var proxywifi = "lovelife_5G";
 if (wifiname == proxywifi){
     $surge.setOutboundMode("direct");
 //    $notification.post("SSID ON","Surge Direct Mode","");

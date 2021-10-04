@@ -15,7 +15,7 @@ $done();
 		
 
 /*#单wifi
-if ($network.wifi.ssid === 'lovelifeasus_5G') {
+if ($network.wifi.ssid === 'lovelife_5G') {
   $done({ server: '198.18.0.2' })
 } else {
   $done({})
