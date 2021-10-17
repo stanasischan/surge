@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,netflixdnstest6.com
 DOMAIN-SUFFIX,netflixdnstest7.com
 DOMAIN-SUFFIX,netflixdnstest8.com
 DOMAIN-SUFFIX,netflixdnstest9.com
+DOMAIN-SUFFIX,us-west-2.amazonaws.com
 
 DOMAIN-KEYWORD,netflix
 DOMAIN-KEYWORD,dualstack.apiproxy-
