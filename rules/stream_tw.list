@@ -9,9 +9,11 @@ DOMAIN,dkfhw9rzsr80z.cloudfront.net
 DOMAIN,a1665.w10.akamai.net
 
 # > friDay
+# > friDay
 USER-AGENT,friDay*
 DOMAIN-SUFFIX,friday.tw
-DOMAIN-SUFFIX,fetnet.net
+DOMAIN-SUFFIX,fridaylogger.com
+DOMAIN,aka01p.akamaized.net
 
 # > Gagaoolala
 DOMAIN-SUFFIX,gagaoolala.com
@@ -33,9 +35,12 @@ DOMAIN-SUFFIX,kkbox.com
 DOMAIN-SUFFIX,kkbox.com.tw
 DOMAIN-SUFFIX,kfs.io
 # > KKTV
-DOMAIN,kktv-theater.kk.stream
-DOMAIN-SUFFIX,kktv.com.tw
-DOMAIN-SUFFIX,kktv.me
 USER-AGENT,KKTV*
-USER-AGENT,com.kktv.ios.kktv*
+USER-AGENT,com.kktv*
+DOMAIN-SUFFIX,kktv.me
+DOMAIN-SUFFIX,kktv.com.tw
+DOMAIN,kktv-theater.kk.stream
+DOMAIN,theater-kktv.cdn.hinet.net
+
+DOMAIN-KEYWORD,.tw
 

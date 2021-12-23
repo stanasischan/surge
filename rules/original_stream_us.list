@@ -1,9 +1,10 @@
 # > HBO Max
 USER-AGENT,HBOMAX*
 DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
+// DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
 
 # > Hulu
 DOMAIN-SUFFIX,hulu.com
@@ -22,21 +23,22 @@ DOMAIN-SUFFIX,tealiumiq.com
 #USER-AGENT,*espn*
 
 # > Paramount plus
+# > Paramount+ US
 USER-AGENT,PPlus*
+DOMAIN-SUFFIX,cbsi.com
+// DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,cbsivideo.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pplusstatic.com
-DOMAIN-SUFFIX,cbs.com
-DOMAIN-SUFFIX,cbsi.com
-DOMAIN-SUFFIX,cbsivideo.com
-DOMAIN-SUFFIX,cbsaavideo.com
-DOMAIN-SUFFIX,cbsstatic.com
-DOMAIN-SUFFIX,cbsig.net
-DOMAIN,cbs.penthera.com
+// DOMAIN-SUFFIX,mtvnservices.com
+DOMAIN,link.theplatform.com
 DOMAIN,cbsi.live.ott.irdeto.com
+// iOS 15 下 UA 不可用，需 MITM cbsi.live.ott.irdeto.com
+AND,((DOMAIN,cbsi.live.ott.irdeto.com), (USER-AGENT,PPlus*))
 // CBS live
 DOMAIN,cbsservice.aws.syncbak.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
-DOMAIN-KEYWORD,cbs
+
 
 # DOMAIN,pubads.g.doubleclick.net 不可屏蔽
 
@@ -46,3 +48,7 @@ DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,Peacock*
 DOMAIN-KEYWORD,nbcstreaming
 DOMAIN-KEYWORD,peacocktv
+
+# > Star+
+// 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
+DOMAIN-SUFFIX,media.starott.com
