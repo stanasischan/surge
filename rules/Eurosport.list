@@ -25,4 +25,5 @@ DOMAIN-SUFFIX,eurosport-dlvr-ott-vod.akamaized.net
 DOMAIN-SUFFIX,api.apptentive.com
 DOMAIN-SUFFIX,ws.batch.com
 DOMAIN-SUFFIX,notify.bugsnag.com
+DOMAIN-SUFFIX,mobile-data.onetrust.io
 USER-AGENT,Eurosport*
