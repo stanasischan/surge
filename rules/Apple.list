@@ -29,3 +29,7 @@ DOMAIN,play-edge.itunes.apple.com // Unblock Region
 # > TestFlight
 DOMAIN,beta.apple.com
 DOMAIN,testflight.apple.com
+
+# > Podcasts
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,bookkeeper.itunes.apple.com
