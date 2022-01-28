@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,global-prod.disco-api.com
 DOMAIN-SUFFIX,a1869.v.akamai.net
 DOMAIN-SUFFIX,pool.ntp.org
 DOMAIN-SUFFIX,eurosport-dlvr-ott-vod.akamaized.net
+DOMAIN-SUFFIX,eurosport-live-prod.akamai.prod-live.h264.io
 DOMAIN-SUFFIX,api.apptentive.com
 DOMAIN-SUFFIX,ws.batch.com
 DOMAIN-SUFFIX,notify.bugsnag.com
