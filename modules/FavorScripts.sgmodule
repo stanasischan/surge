@@ -1,23 +1,58 @@
-#!name=Favorite Scripts
-#!desc=tb/jd price, nf rating, weibo adblock
+#!name=Scripts
+#!desc=Script Pack
 #!system=ios
+
+[Rule]
+DOMAIN,adimg.vue.weibo.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+URL-REGEX,^https?:\/\/pic\d\.zhimg\.com\/70\/,REJECT
+#URL-REGEX,^https?:\/\/(api|www)\.zhihu\.com\/(ab|adx|fringe|commercial|ad-style-service|.*(recommendations|extended|featured-comment-ad)|api\/v4\/(brand|mcn|(answer|question)s\/\d+\/meta_related_topics)|brand\/questions\/\d+\/activity\/answers\/red-packet(\/|\?|$)),REJECT
+AND,((USER-AGENT,osee2*), (OR,((IP-CIDR,0.0.0.0/0,no-resolve),(IP-CIDR6,::/0,no-resolve)))),REJECT
+URL-REGEX,^https?:\/\/ap(p|i)\.bilibili\.com\/(pgc\/season\/rank\/cn|x\/v2\/(dm\/ad|rank.*rid=(168|5)|dataflow\/report|search\/(defaultword|trending|recommend|resource)|splash)),REJECT
+URL-REGEX,^https?:\/\/(app-)?api\.smzdm\.com\/(v\d\/)?util\/(loading|banner),REJECT
+URL-REGEX,^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch,REJECT
+URL-REGEX,^https?:\/\/dq\.dxy\.cn\/api\.php\?action=getpostbanners&sys_id=,REJECT
+URL-REGEX,^https?:\/\/drugs\.dxy\.cn\/api\/ad\?productType=,REJECT
+URL-REGEX,^https?:\/\/www\.dxy\.cn\/webservices\/app\/specialAd\/list\?ac=,REJECT
+URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.((trip\.activity|film\.mtopadvertiseapi)\.querytmsresources|(taobao\.idle\.home|aliyun\.mobile)\.welcome(page)?|.*?\.ads?\.),REJECT
+URL-REGEX,^https?://gw.alicdn.com/(t(f|p)s/.+\d{3,4}-\d{4}|mt),REJECT
+#URL-REGEX,^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json,REJECT
+URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/,REJECT
+AND,((URL-REGEX,\/amdc\/mobileDispatch),(USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*)),REJECT
+
+
+[URL Rewrite]
+# >> unlock
+#(?<=locale=)CN(?=&) US 307
+
+# Wikipedia to Wikiwand
+#^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
+#^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
+
+
+# >>safari duckduck go mode quick search
+# | bd=百度搜索 | gh=github搜索 | gm=google图片搜索 | yd=有道搜索 | 无指令直接Google
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
 
 
 [MITM]
-hostname = %APPEND% trade-acs.m.taobao.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ios.prod.ftl.netflix.com, api.m.jd.com
+hostname = %APPEND%  api.zhihu.com, www.zhihu.com,  duckduckgo.com, *acs.m.taobao.com, gw.alicdn.com, www.washingtonpost.com, api.m.jd.com, *.wikipedia.org,*.wikiwand.com
+
 
 [Script]
 # Display tb historical price
-tb_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/tb_price.js,pattern=^https?://.+/amdc/mobileDispatch,type=http-request
-tb_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/tb_price.js,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,type=http-response
-
-# Remove weibo ads
-wb_ad.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/wb_ad.js,script-update-interval=0,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|\!/photos/pic_recommend_status),type=http-response
-wb_launch.js = requires-body=1,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/wb_launch.js,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),type=http-response
-
-# Show IMDB/Douban rating on NF
-nf_rating.js = script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/nf_rating.js,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,type=http-request
-nf_rating.js = requires-body=1,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/nf_rating.js,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,type=http-response
+#tb_price.js = type=http-request,requires-body=1,max-size=-1,pattern=^http:\/\/.+\/amdc\/mobileDispatch,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+#tb_price.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/trade-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.detail\.getdetail,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+#tb_price_lite.js = requires-body=1,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/tb_price_lite.js,pattern=^https?://.+/amdc/mobileDispatch,type=http-request
+#tb_price_lite.js = requires-body=1,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/tb_price_lite.js,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,type=http-response
 
 # Display jd historical price
-jd_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/stanasischan/yichahucha/master/jd_price.js,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),type=http-response
+#jd_price.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),type=http-response
