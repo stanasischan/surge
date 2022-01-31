@@ -1,19 +1,16 @@
-#!name=profiles
-#!desc=general profiles setting
-#!system=mac
+#!name=Profile
+#!desc=general profile setting
+#!system=ios
+
 
 [General]
+use-local-host-item-for-proxy = true
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,169.254.0.0/16,224.0.0.0/4,240.0.0.0/4
-dns-server = 1.2.4.8, 119.29.29.29, 223.5.5.5
-doh-server = https://dns.alidns.com/dns-query, https://59.110.53.209/dns-query, https://118.31.13.131/dns-query
-#rixCloud doh servers
-#https://doh.rixcloud.dev/dns-query #上海
-#https://118.31.13.131/dns-query #杭州
-#https://120.25.25.166/dns-query #深圳
-#https://139.224.112.177/dns-query #上海
-#https://47.108.56.233/dns-query #成都
-#https://59.110.53.209/dns-query #北京
+dns-server = 119.29.29.29, 223.5.5.5, 114.114.114.114, system
+doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+#
+#https://rubyfish.cn/dns-query
 doh-format = wireformat
 loglevel = notify
 ipv6 = false
@@ -22,11 +19,10 @@ show-error-page-for-reject = true
 exclude-simple-hostnames = true
 always-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
 internet-test-url = http://www.aliyun.com
-proxy-test-url = http://captive.rixcloud.io/generate_204
-
-# macOS Only
-enhanced-mode-by-rule = false
-
+proxy-test-url = http://cp.cloudflare.com/generate_204
+geoip-maxmind-url = https://github.com/Hackl0us/GeoIP-CN/raw/master/artifacts/Country.mmdb
+disable-geoip-db-auto-update = false
+v2ray.vmess.aead.forced = false
 
 [Replica]
 hide-apple-request = true
@@ -37,7 +33,81 @@ keyword-filter-type= (null)
 keyword-filter= icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk,dropbox,spys
 
 
+[URL Rewrite]
 
+# AbeamTV Unlock
+^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
+
+# Redirect Google Service
+^https?:\/\/(www.)?g\.cn https://www.google.com 302
+^https?:\/\/(www.)?google\.cn https://www.google.com 302
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+
+# Redirect HTTP to HTTPS
+^https?:\/\/(www.)?taobao\.com\/ https://www.taobao.com/ 302
+^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
+^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
+^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
+^https?:\/\/(www.)?suning\.com/ https://suning.com/ 302
+^https?:\/\/(www.)?yhd\.com https://yhd.com/ 302
+
+# Redirect False to True
+# >> IGN China to IGN Global
+^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
+# >> Fake Website Made By Makeding
+^https?:\/\/(www.)?abbyychina\.com\/ http://www.abbyy.cn/ 302
+^https?:\/\/(www.)?bartender\.cc\/ https://cn.seagullscientific.com 302
+^https?:\/\/(www.)?betterzip\.net\/ https://macitbetter.com/ 302
+^https?:\/\/(www.)?beyondcompare\.cc\/ https://www.scootersoftware.com/ 302
+^https?:\/\/(www.)?bingdianhuanyuan\.cn\/ http://www.faronics.com/zh-hans/ 302
+^https?:\/\/(www.)?chemdraw\.com\.cn\/ http://www.cambridgesoft.com/ 302
+^https?:\/\/(www.)?codesoftchina\.com\/ https://www.teklynx.com/ 302
+^https?:\/\/(www.)?coreldrawchina\.com\/ https://www.coreldraw.com/cn/ 302
+^https?:\/\/(www.)?crossoverchina\.com\/ https://www.codeweavers.com/ 302
+^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
+^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
+^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/flstudio/ 302
+^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn 302
+^https?:\/\/(www.)?guitarpro\.cc\/ https://www.guitar-pro.com/ 302
+^https?:\/\/(www.)?huishenghuiying\.com\.cn\/ https://www.corel.com/cn/ 302
+^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/iconworkshop/ 302
+^https?:\/\/(www.)?imindmap\.cc\/ https://imindmap.com/zh-cn/ 302
+^https?:\/\/(www.)?jihehuaban\.com\.cn\/ https://sketch.io/ 302
+^https?:\/\/(www.)?keyshot\.cc\/ https://www.keyshot.com/ 302
+^https?:\/\/(www.)?mathtype\.cn\/ http://www.dessci.com/en/products/mathtype/ 302
+^https?:\/\/(www.)?mindmanager\.cc\/ https://www.mindjet.com/ 302
+^https?:\/\/(www.)?mindmapper\.cc\/ https://mindmapper.com 302
+^https?:\/\/(www.)?mycleanmymac\.com\/ https://macpaw.com/cleanmymac 302
+^https?:\/\/(www.)?nicelabel\.cc\/ https://www.nicelabel.com/ 302
+^https?:\/\/(www.)?ntfsformac\.cc\/ https://www.tuxera.com/products/tuxera-ntfs-for-mac-cn/ 302
+^https?:\/\/(www.)?ntfsformac\.cn\/ https://www.paragon-software.com/ufsdhome/zh/ntfs-mac/ 302
+^https?:\/\/(www.)?overturechina\.com\/ https://sonicscores.com/overture/ 302
+^https?:\/\/(www.)?passwordrecovery\.cn\/ https://cn.elcomsoft.com/aopr.html 302
+^https?:\/\/(www.)?pdfexpert\.cc\/ https://pdfexpert.com/zh 302
+^https?:\/\/(www.)?ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
+^https?:\/\/(www.)?vegaschina\.cn\/ https://www.vegas.com/ 302
+^https?:\/\/(www.)?xmindchina\.net\/ https://www.xmind.cn/ 302
+^https?:\/\/(www.)?xshellcn\.com\/ https://www.netsarang.com/products/xsh_overview.html 302
+^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/zhcn/ 302
+^https?:\/\/(www.)?zbrushcn\.com\/ http://pixologic.com/ 302
+^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
+
+
+# Wiki
+#^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
+#^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
+
+
+
+
+[Header Rewrite]
+#eHpo1 main config
+# 百度贴吧
+^https?+:\/\/(?:c\.)?+tieba\.baidu\.com\/(?>f|p) header-replace User-Agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15"
+^https?+:\/\/jump2\.bdimg\.com\/(?>f|p) header-replace User-Agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15"
+# 百度知道
+^https?+:\/\/zhidao\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15"
 
 [Host]
 
@@ -81,5 +151,6 @@ amplifi.lan = server:system
 
 [MITM]
 skip-server-cert-verify = true
-tcp-connection = true
-hostname = %APPEND%  -*.googlevideo.com, *.abema.tv, *.amemv.com, *.chelaile.net.cn, *.didistatic.com, *.googlevideo.com, *.google-analytics.com, *.iydsj.com, *.k.sohu.com, *.kfc.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pixiv.net, *.pstatp.com, *.rixcloudservice.com, *.snssdk.com, *.uve.weibo.com, *.wikipedia.org, *.wikiwand.com, *.ydstatic.com, *.youdao.com, *.youtube.com, *.zhuishushenqi.com, 119.18.193.135, 123.59.31.1, 153.3.236.81, 180.101.212.22, 218.11.3.70, 59.151.53.6, a.apicloud.com, a.applovin.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, abema.tv, acs.m.taobao.com, act.vip.iqiyi.com, adse.ximalaya.com, api*.amemv.com, api*.musical.ly, api*.tiktokv.com, api-release.wuta-cam.com, api.abema.io, api.bilibili.com, api.daydaycook.com.cn, api.gotokeep.com, api.intsig.net, api.jr.mi.com, api.jxedt.com, api.kkmh.com, api.m.jd.com, api.mgzf.com, api.psy-1.com, api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.wallstreetcn.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api.zhuishushenqi.com, api5.futunn.com, app.10086.cn, app.58.com, app.api.ke.com, app.bilibili.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.mwee.cn, cdn.moji.com, channel.beitaichufang.com, client.mail.163.com, cms.daydaycook.com.cn, dspsdk.abreader.com, fdfs.xmcdn.com, gateway.shouqiev.com, gw-passenger.01zhuanche.com, gw.alicdn.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, iapi.bishijie.com, iface.iqiyi.com, img*.doubanio.com, img.jiemian.com, interface.music.163.com, ios.wps.cn, m*.amap.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.yap.yahoo.com, mapi.mafengwo.cn, mapi.weibo.com, media.qyer.com, mi.gdt.qq.com, mob.mddcloud.com.cn, mobile-api2011.elong.com, mp.weixin.qq.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, portal-xunyou.qingcdn.com, pss.txffp.com, r.inews.qq.com, render.alipay.com, res-release.wuta-cam.com, richmanapi.jxedt.com, service.4gtv.tv, smkmp.96225.com, snailsleep.net, sp.kaola.com, ssl.kohsocialapp.qq.com, static.vuevideo.net, static1.keepcdn.com, support.you.163.com, thor.weidian.com, tieba.baidu.com, www.dandanzan.com, www.flyertea.com, www.tieba.com, www.zhihu.com, www.youtube.com, youtubei.googleapis.com, zhidao.baidu.com
+#tcp-connection = true
+
+hostname = %APPEND%  -*.googlevideo.com, www.google.cn, *.abema.tv, *.amemv.com, *.chelaile.net.cn, *.didistatic.com, *.googlevideo.com, *.google-analytics.com, *.iydsj.com, *.k.sohu.com, *.kfc.com, *.kingsoft-office-service.com, *.meituan.net, *.ofo.com, *.pixiv.net, *.pstatp.com, *.rixcloudservice.com, *.snssdk.com, -*.weibo.com, *.uve.weibo.com, *.wikipedia.org, *.wikiwand.com, *.ydstatic.com, *.youdao.com, *.youtube.com, *.zhuishushenqi.com, 119.18.193.135, 123.59.31.1, 153.3.236.81, 180.101.212.22, 218.11.3.70, 59.151.53.6, a.apicloud.com, a.applovin.com, a.qiumibao.com, a.sfansclub.com, a.wkanx.com, abema.tv, acs.m.taobao.com, act.vip.iqiyi.com, adse.ximalaya.com, api*.amemv.com, api*.musical.ly, api*.tiktokv.com, api-release.wuta-cam.com, api.abema.io, api.bilibili.com, api.daydaycook.com.cn, api.gotokeep.com, api.intsig.net, api.jr.mi.com, api.jxedt.com, api.kkmh.com, api.m.jd.com, api.mgzf.com, api.psy-1.com, api.rr.tv, api.smzdm.com, api.tv.sohu.com, api.wallstreetcn.com, api.weibo.cn, api.xiachufang.com, api.zhihu.com, api.zhuishushenqi.com, api5.futunn.com, app.10086.cn, app.58.com, app.api.ke.com, app.bilibili.com, app.mixcapp.com, app.variflight.com, app.wy.guahao.com, b.zhuishushenqi.com, c.m.163.com, cap.caocaokeji.cn, capi.mwee.cn, cdn.moji.com, channel.beitaichufang.com, client.mail.163.com, cms.daydaycook.com.cn, dspsdk.abreader.com, fdfs.xmcdn.com, gateway.shouqiev.com, gw-passenger.01zhuanche.com, gw.alicdn.com, huichuan.sm.cn, i.weread.qq.com, i.ys7.com, iapi.bishijie.com, iface.iqiyi.com, img*.doubanio.com, img.jiemian.com, interface.music.163.com, ios.wps.cn, m*.amap.com, m.client.10010.com, m.creditcard.ecitic.com, m.ibuscloud.com, m.yap.yahoo.com, mapi.mafengwo.cn, mapi.weibo.com, media.qyer.com, mi.gdt.qq.com, mob.mddcloud.com.cn, mobile-api2011.elong.com, mp.weixin.qq.com, mrobot.pcauto.com.cn, mrobot.pconline.com.cn, ms.jr.jd.com, msspjh.emarbox.com, newsso.map.qq.com, nnapp.cloudbae.cn, open.qyer.com, portal-xunyou.qingcdn.com, pss.txffp.com, r.inews.qq.com, render.alipay.com, res-release.wuta-cam.com, richmanapi.jxedt.com, service.4gtv.tv, smkmp.96225.com, snailsleep.net, sp.kaola.com, ssl.kohsocialapp.qq.com, static.vuevideo.net, static1.keepcdn.com, support.you.163.com, thor.weidian.com, tieba.baidu.com, www.dandanzan.com, www.flyertea.com, www.tieba.com, www.zhihu.com, www.youtube.com, youtubei.googleapis.com, zhidao.baidu.com
