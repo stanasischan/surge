@@ -1,6 +1,6 @@
 #!name=Profile
 #!desc=general profile setting
-#!system=ios
+#!system=mac
 
 
 [General]
