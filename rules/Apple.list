@@ -25,6 +25,7 @@ DOMAIN,hls.itunes.apple.com // Trailers
 DOMAIN,hls-amt.itunes.apple.com // Trailers
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com // Unblock Region
+DOMAIN,np-edge.itunes.apple.com
 
 # > TestFlight
 DOMAIN,beta.apple.com
