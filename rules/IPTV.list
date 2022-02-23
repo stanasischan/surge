@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,troya.tv
 DOMAIN-SUFFIX,tv.team
 #lightiptv
 DOMAIN-SUFFIX,pp.ru
-#stalker（siggiztv、supiptv、overboxtv、maltaip、venomf）（可能不全）
+#stalker(siggiztv、supiptv、overboxtv、maltaip、venomf)
 IP-CIDR,188.93.236.0/24,no-resolve
 IP-CIDR,188.93.237.0/24,no-resolve
 IP-CIDR,185.236.230.0/24,no-resolve
