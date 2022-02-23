@@ -1,42 +1,37 @@
 # iptv
-DOMAIN-SUFFIX,promercury.club
-DOMAIN-SUFFIX,bestv.nl
-DOMAIN-SUFFIX,client-premiumzone.in
-DOMAIN-SUFFIX,client-prolive.club
-DOMAIN-SUFFIX,pandaiptv.club
-DOMAIN-SUFFIX,cloud-hotbox.club
-DOMAIN-SUFFIX,pro-streamhouse.club
-DOMAIN-SUFFIX,supiptv.vip
-DOMAIN-SUFFIX,sodatv.club
-DOMAIN-SUFFIX,goldiptv.online
-DOMAIN-SUFFIX,umetvpro.top
-DOMAIN-SUFFIX,gnodi.org
-DOMAIN-SUFFIX,patongiptv.com
-DOMAIN-SUFFIX,premium-streamplay.club
-DOMAIN-SUFFIX,proiptv.se 
-DOMAIN-SUFFIX,pro-iptvzone.club
-DOMAIN-SUFFIX,stream-proiptv.club
-DOMAIN-SUFFIX,alfda-0599597337.com
-DOMAIN-SUFFIX,ejypro.com
-DOMAIN-SUFFIX,iptvgarden.net
-DOMAIN-SUFFIX,tv-prozone.club
-DOMAIN-SUFFIX,worldiptv.me
-DOMAIN-SUFFIX,world-protv.club
-DOMAIN-SUFFIX,client-worldtv.club
-DOMAIN-SUFFIX,pro-stream.club
-DOMAIN-SUFFIX,prootv.co
-DOMAIN-SUFFIX,protv-nordic.club
-DOMAIN-SUFFIX,portal-nasaiptv.com
-DOMAIN-SUFFIX,cloud-magicstream.club
-DOMAIN-SUFFIX,exaiptv.club
-DOMAIN-SUFFIX,protv-portal.club
-DOMAIN-SUFFIX,comingatya.vip
-DOMAIN-SUFFIX,cloud-streamtower.club
-DOMAIN-SUFFIX,cdn-streamzone.club
-DOMAIN-SUFFIX,cloud-streamland.club
-DOMAIN-SUFFIX,europetv.club
-DOMAIN-SUFFIX,istreamhub.eu
-DOMAIN-SUFFIX,client-protv.club
-DOMAIN-SUFFIX,iconnect10.com
-DOMAIN-SUFFIX,mytv.club
-DOMAIN-SUFFIX,homeplex.live
+#ilook.tv
+  - IP-CIDR,194.59.155.0/24,no-resolve
+  - IP-CIDR,213.183.40.0/24,no-resolve
+  - IP-CIDR,213.183.42.0/24,no-resolve
+  - IP-CIDR,213.183.47.0/24,no-resolve
+  - IP-CIDR,5.182.228.0/24,no-resolve
+  - IP-CIDR,5.182.229.0/24,no-resolve
+  - IP-CIDR,5.182.231.0/24,no-resolve
+  - IP-CIDR,5.188.172.0/24,no-resolve
+  - IP-CIDR,77.72.19.0/24,no-resolve
+  - IP-CIDR,77.72.23.0/24,no-resolve
+  - IP-CIDR,92.119.88.0/24,no-resolve
+  - IP-CIDR,92.119.89.0/24,no-resolve
+  - IP-CIDR,93.189.56.0/24,no-resolve
+  - DOMAIN-SUFFIX,akciatv.ru
+  - DOMAIN-SUFFIX,russtv.net
+  - DOMAIN-SUFFIX,zatikov.net
+  - DOMAIN-KEYWORD,russtv
+#bil.best
+  - DOMAIN-SUFFIX,ultra-tv.online
+  - IP-CIDR,62.149.6.21/32,no-resolve
+#tv.team
+  - DOMAIN-SUFFIX,troya.tv
+  - DOMAIN-SUFFIX,tv.team
+#lightiptv
+  - DOMAIN-SUFFIX,pp.ru
+#stalker（siggiztv、supiptv、overboxtv、maltaip、venomf）（可能不全）
+  - IP-CIDR,188.93.236.0/24,no-resolve
+  - IP-CIDR,188.93.237.0/24,no-resolve
+  - IP-CIDR,185.236.230.0/24,no-resolve
+  - IP-CIDR,185.191.0.0/16,no-resolve
+  - IP-CIDR,45.86.190.0/24,no-resolve
+  - IP-CIDR,45.86.191.0/24,no-resolve
+  - IP-CIDR,89.187.189.0/24,no-resolve
+  - IP-CIDR,62.210.0.0/16,no-resolve
+  - IP-CIDR,185.180.14.0/24,no-resolve
