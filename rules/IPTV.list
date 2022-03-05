@@ -20,6 +20,8 @@ DOMAIN-KEYWORD,russtv
 #bil.best
 DOMAIN-SUFFIX,ultra-tv.online
 IP-CIDR,62.149.6.21/32,no-resolve
+#supiptv
+DOMAIN-SUFFIX,supiptv.vip
 #tv.team
 DOMAIN-SUFFIX,troya.tv
 DOMAIN-SUFFIX,tv.team
