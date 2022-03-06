@@ -20,22 +20,6 @@ DOMAIN,d3196yreox78o9.cloudfront.net
 DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN-KEYWORD,avoddashs
 
-
-DOMAIN-SUFFIX,amazonprimevideo.cn
-DOMAIN-SUFFIX,amazonprimevideo.com.cn
-DOMAIN-SUFFIX,amazonprimevideos.com
-DOMAIN-SUFFIX,amazonvideo.cc
-DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
-DOMAIN-SUFFIX,fls-na.amazon.com
-DOMAIN-SUFFIX,llnwd.net
-DOMAIN-SUFFIX,prime-video.com
-DOMAIN-SUFFIX,primevideo.cc
-DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,primevideo.info
-DOMAIN-SUFFIX,primevideo.org
-DOMAIN-SUFFIX,primevideo.tv
-PROCESS-NAME,com.amazon.avod.thirdpartyclient
-
 // 美区网页版需二选一走代理,如 URL-REGEX 则需 MITM www.amazon.com
 // DOMAIN,www.amazon.com
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
