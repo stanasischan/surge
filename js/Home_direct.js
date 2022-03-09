@@ -8,7 +8,7 @@ Rewrite和Scripting依然有效
 https://meetagit.github.io/MeetaRules/Surge/Scripting/wifi_proxy.js
 TG频道:@meetashare
 */
-#单wifi代码
+/*#单wifi代码
 var wifiname = $network.wifi.ssid;
 var proxywifi = "lovelife_5G";
 if (wifiname == proxywifi){
@@ -20,11 +20,9 @@ else{
     $surge.setOutboundMode("rule");
 //    $notification.post("SSID OFF","Surge Rules Mode","");
 }
-$done();
+$done();*/
 
-
-
-/* var wifiname = $network.wifi.ssid;
+var wifiname = $network.wifi.ssid;
 var proxywifi = ["lovelife","lovelife_5G"];
 
 for (var i = 0; i < proxywifi.length; i++) {
@@ -45,6 +43,4 @@ for (var i = 0; i < proxywifi.length; i++) {
 	
 };
 $done();
-
-*/
 
