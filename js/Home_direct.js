@@ -25,7 +25,9 @@ $done();
 */
 
 var wifiname = $network.wifi.ssid;
-var proxywifi = ["lovelife","lovelife_5G"];
+var proxywifi = ["lovelife_5G"];
+//var proxywifi = ["lovelife","lovelife_5G"];
+
 for (var i = 0; i < proxywifi.length; i++) {
 	if (wifiname==proxywifi[i]){
 		$surge.setOutboundMode("direct");
