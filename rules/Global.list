@@ -2,6 +2,7 @@
 # (DNS Cache Pollution Protection)
 # > self
 DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,github.com
 
 
 # > Facebook
