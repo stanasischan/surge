@@ -1,6 +1,8 @@
 # Global.list
 # (DNS Cache Pollution Protection)
-# > Google
+# > self
+DOMAIN-SUFFIX,hostloc.com
+
 
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com
