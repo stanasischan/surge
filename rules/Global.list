@@ -2,7 +2,7 @@
 # (DNS Cache Pollution Protection)
 # > self
 DOMAIN-SUFFIX,github.com
-
+DOMAIN-SUFFIX,bandwagonhost.com
 
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com
