@@ -1,3 +1,6 @@
+# > self
+DOMAIN-SUFFIX,hostloc.com
+
 # > HBO Max
 USER-AGENT,HBOMAX*
 DOMAIN-SUFFIX,hbo.com
