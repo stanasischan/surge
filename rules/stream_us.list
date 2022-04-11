@@ -1,5 +1,6 @@
 # > self
 DOMAIN-SUFFIX,hostloc.com
+DOMAIN,lens.l.google.com
 
 # > HBO Max
 USER-AGENT,HBOMAX*
