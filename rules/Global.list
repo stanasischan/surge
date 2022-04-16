@@ -18,6 +18,8 @@ DOMAIN,a233avodhlss3ww-a.akamaihd.net
 DOMAIN,a73avodhlss3ww-a.akamaihd.net
 DOMAIN-SUFFIX,overcast.fm
 USER-AGENT,Overcast*
+DOMAIN-SUFFIX,dowjones.io
+
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
