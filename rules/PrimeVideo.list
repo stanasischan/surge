@@ -8,9 +8,9 @@ DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 // DOMAIN,www.amazon.com
-DOMAIN,ktpx.amazon.com
-DOMAIN,atv-ps.amazon.com
-DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN-SUFFIX,ktpx.amazon.com
+DOMAIN-SUFFIX,atv-ps.amazon.com
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
 // DOMAIN,d184dfn36gombl.cloudfront.net
 // DOMAIN,d1xfray82862hr.cloudfront.net
 // DOMAIN,d1v5ir2lpwr8os.cloudfront.net
@@ -26,9 +26,9 @@ DOMAIN,www.amazon.com
 //URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 
 
-DOMAIN,a160avodhlss3ww-a.akamaihd.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
-DOMAIN,a252avodhlss3ww-a.akamaihd.net
+DOMAIN-SUFFIX,a160avodhlss3ww-a.akamaihd.net
+DOMAIN-SUFFIX,dmqdd6hw24ucf.cloudfront.net
+DOMAIN-SUFFIX,a252avodhlss3ww-a.akamaihd.net
 
 
 
