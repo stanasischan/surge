@@ -26,12 +26,6 @@ DOMAIN,www.amazon.com
 //URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 
 
-DOMAIN-SUFFIX,a160avodhlss3ww-a.akamaihd.net
-DOMAIN-SUFFIX,dmqdd6hw24ucf.cloudfront.net
-DOMAIN-SUFFIX,a252avodhlss3ww-a.akamaihd.net
-DOMAIN-SUFFIX,a144avodhlss3ww-a.akamaihd.net
-
-
 
 
 
