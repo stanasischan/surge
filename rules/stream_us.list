@@ -1,7 +1,6 @@
 # > self
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN,lens.l.google.com
-DOMAIN,hbogoprod-vod.akamaized.net
 
 # > HBO Max
 USER-AGENT,HBOMAX*
