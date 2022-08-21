@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,overcast.fm
 USER-AGENT,Overcast*
 DOMAIN-SUFFIX,dowjones.io
 DOMAIN,hbogoprod-vod.akamaized.net
+DOMAIN-SUFFIX,dmtn.tv
 
 
 # > Reddit
