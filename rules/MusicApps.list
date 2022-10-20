@@ -28,6 +28,10 @@ DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidalhifi.com
 DOMAIN-SUFFIX,wimpmusic.com
 USER-AGENT,TIDAL*dia
+# > Deezer
+DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,dzcdn.net
+USER-AGENT,Deezer*
 # > QOBUZ
 USER-AGENT,Qobuz*
 DOMAIN-SUFFIX,qobuz.com
