@@ -38,6 +38,8 @@ DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,miguvideo.com
 
 # (Music)
+# > Qobuz
+DOMAIN,streaming-qobuz-sec.akamaized.net
 # > QQ Music
 DOMAIN-SUFFIX,music.qq.com
 DOMAIN-SUFFIX,music.tc.qq.com
