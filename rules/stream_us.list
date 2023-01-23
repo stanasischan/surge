@@ -44,11 +44,23 @@ USER-AGENT,*hulu*
 #DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,tealiumiq.com
 
-# > espn
-#DOMAIN-SUFFIX,espn.com
-#DOMAIN-SUFFIX,espncdn.com
-#DOMAIN-KEYWORD,espn
-#USER-AGENT,*espn*
+# > ESPN
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,espncdn.com
+USER-AGENT,*espn*
+DOMAIN-SUFFIX,vision.fn-pz.com
+DOMAIN-SUFFIX,sdk.iad-06.braze.com
+DOMAIN-SUFFIX,api.twdcstories.com
+DOMAIN-SUFFIX,cdn.optimizely.com
+DOMAIN-SUFFIX,us.edge.bamgrid.com
+DOMAIN-SUFFIX,assets.adobedtm.com
+DOMAIN-SUFFIX,streams.adobeprimetime.com
+DOMAIN-SUFFIX,sp.auth.adobe.com
+DOMAIN,espn.com
+DOMAIN,espncdn.com
+DOMAIN,watchespn.com
+DOMAIN,espnplayer.com
+DOMAIN-KEYWORD,espn
 
 # > Paramount plus
 # > Paramount+ US
@@ -79,4 +91,4 @@ DOMAIN-KEYWORD,peacocktv
 
 # > Star+
 // 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
-DOMAIN-SUFFIX,media.starott.com
+//DOMAIN-SUFFIX,media.starott.com
