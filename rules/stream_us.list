@@ -54,6 +54,7 @@ USER-AGENT,PPlus*
 USER-AGENT,ParamountPlus*
 DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbsaavideo.com #播放
+DOMAIN,vod-gcs-cedexis.cbsaavideo.com
 DOMAIN-SUFFIX,cbsivideo.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pplusstatic.com
@@ -61,9 +62,9 @@ DOMAIN-SUFFIX,pplusstatic.com
 // DOMAIN-SUFFIX,cws.conviva.com
 DOMAIN,link.theplatform.com
 // US
-AND,((DOMAIN,cbsi.live.ott.irdeto.com), (USER-AGENT,PPlus*))
+DOMAIN,cbsi.live.ott.irdeto.com
 // Intl.
-AND,((DOMAIN,cbsi.live.ott.irdeto.com), (USER-AGENT,Paramountlus*))
+DOMAIN,cbsi.live.ott.irdeto.com
 // 播放验证，此条 Paramount+ 国际版与美国版共用，可使用 AND 语法区分。iOS 15 下 UA 不可用需 MITM 相关 HOST
 DOMAIN,cbsi.live.ott.irdeto.com
 // DOMAIN,thumbnails.cbsig.net #缩略图
