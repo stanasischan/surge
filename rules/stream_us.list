@@ -46,7 +46,7 @@ DOMAIN,watchespn.com
 DOMAIN,espnplayer.com
 DOMAIN-KEYWORD,espn
 
-# > Paramount+
+
 # > Paramount+
 // US UA
 USER-AGENT,PPlus*
@@ -67,14 +67,15 @@ DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,cbsi.live.ott.irdeto.com
 // 播放验证，此条 Paramount+ 国际版与美国版共用，可使用 AND 语法区分。iOS 15 下 UA 不可用需 MITM 相关 HOST
 DOMAIN,cbsi.live.ott.irdeto.com
-// DOMAIN,thumbnails.cbsig.net #缩略图
+DOMAIN,thumbnails.cbsig.net #缩略图
 // DOMAIN,cbsinteractive.hb.omtrdc.net
-// DOMAIN,ads.play.cbsi.video #片头动画，可屏蔽
-// DOMAIN,pubads.g.doubleclick.net #不可屏蔽
+DOMAIN,ads.play.cbsi.video #片头动画，可屏蔽
+DOMAIN,pubads.g.doubleclick.net #不可屏蔽
 DOMAIN,cbsnews.akamaized.net #CBSN Live
 // CBS live丨US
 DOMAIN,cbsservice.aws.syncbak.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN,cbsn-us.cbsnstream.cbsnews.com
 
 
 
