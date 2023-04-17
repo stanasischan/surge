@@ -53,7 +53,7 @@ USER-AGENT,PPlus*
 // Intl. UA
 USER-AGENT,ParamountPlus*
 DOMAIN-SUFFIX,cbsi.com
-DOMAIN-SUFFIX,cbsaavideo.com #播放
+//DOMAIN-SUFFIX,cbsaavideo.com #播放
 DOMAIN-SUFFIX,cbsivideo.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pplusstatic.com
