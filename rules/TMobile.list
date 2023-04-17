@@ -1,5 +1,6 @@
 DOMAIN-SUFFIX,ultramobile.com
 DOMAIN-SUFFIX,t-mobile.com
+AND,((GEOIP,US), (AND,((PROTOCOL,UDP), (OR,((DEST-PORT,500), (DEST-PORT,4500))))))
 
 
 # > 注：1.代理线路需支持UDP 2.最好为美国线路IPLC
