@@ -12,6 +12,10 @@ DOMAIN-SUFFIX,s3nycv.xyz
 DOMAIN-SUFFIX,yingyangdj.com
 DOMAIN-SUFFIX,chongchong-00.com
 DOMAIN-SUFFIX,cennv.cn
+IP-CIDR,128.14.142.155/32,no-resolve
+DOMAIN,dns.twnic.tw
+
+
 
 # (0~9)
 # > 51wnl
