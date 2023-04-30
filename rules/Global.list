@@ -26,6 +26,8 @@ IP-CIDR,206.29.177.36/32,no-resolve
 IP-CIDR,208.54.0.0/16,no-resolve
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,xbiquge.so
+DOMAIN-SUFFIX,ozan.com
+DOMAIN,oldubil.colendilabs.com
 
 
 
