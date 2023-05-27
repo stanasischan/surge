@@ -37,6 +37,7 @@ DOMAIN-SUFFIX,tennistv.com
 DOMAIN,dplus-eu-cloudfront.prod-live.h264.io
 DOMAIN-SUFFIX,atpmedia.pulselive.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,pdst.fm
 
