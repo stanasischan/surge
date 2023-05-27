@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,pdst.fm
+DOMAIN-SUFFIX,controld.com
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
