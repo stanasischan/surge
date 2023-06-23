@@ -43,7 +43,7 @@ DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,controld.com
 DOMAIN-SUFFIX,rank-tennis.com
 DOMAIN-SUFFIX,syncbits.com
-DOMAIN-SUFFIX,wiz.money
+#DOMAIN-SUFFIX,wiz.money
 
 
 # > Reddit
