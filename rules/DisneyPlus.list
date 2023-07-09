@@ -14,3 +14,4 @@ DOMAIN,cdn.registerdisney.go.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN,global.edge.bamgrid.com
 DOMAIN,bam-sdk-configs.bamgrid.com
+DOMAIN,disney.images.edge.bamgrid.com
