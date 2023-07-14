@@ -36,5 +36,7 @@ DOMAIN-SUFFIX,eurosport.fr
 DOMAIN-SUFFIX,eurosport.ru
 DOMAIN,media-shield.live.eurosport.map.fastly.net
 
+DOMAIN,discoverydp.hb-api.omtrdc.net
+
 #DOMAIN,eurosport-dlvr-ott.akamaized.net
 #DOMAIN,eurosport-dlvr-ott-vod.akamaized.net
