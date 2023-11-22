@@ -88,10 +88,12 @@ DOMAIN,cbsn-us.cbsnstream.cbsnews.com
 
 
 # > Peacock TV
+USER-AGENT,peacock*
+DOMAIN-SUFFIX,cdn.peacocktv.com
 DOMAIN-SUFFIX,peacocktv.com
-USER-AGENT,Peacock*
+// 屏蔽广告
+// DOMAIN,video-ads-module.ad-tech.nbcuni.com
 DOMAIN-KEYWORD,nbcstreaming
-DOMAIN-KEYWORD,peacocktv
 
 # > Star+
 // 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
