@@ -57,6 +57,9 @@ DOMAIN-SUFFIX,docofcard.com
 DOMAIN-SUFFIX,docofcard.disqus.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
+#for Max#
+DOMAIN,akm.prd.media.h264.io
+####
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
