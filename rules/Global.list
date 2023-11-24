@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 #for Max#
 DOMAIN,akm.prd.media.h264.io
+DOMAIN,fly.prd.media.h264.io
 ####
 
 # > Reddit
