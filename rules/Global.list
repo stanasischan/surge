@@ -61,6 +61,7 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN,akm.prd.media.h264.io
 DOMAIN,fly.prd.media.h264.io
 ####
+DOMAIN-SUFFIX,duyaoss.com
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
