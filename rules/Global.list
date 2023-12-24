@@ -63,6 +63,7 @@ DOMAIN,fly.prd.media.h264.io
 DOMAIN,cf.prd.media.h264.io
 ####
 DOMAIN-SUFFIX,duyaoss.com
+DOMAIN-SUFFIX,cloudcone.com
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
