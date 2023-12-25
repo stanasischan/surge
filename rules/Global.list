@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,controld.com
+DOMAIN-SUFFIX,verify.controld.com
 DOMAIN-SUFFIX,rank-tennis.com
 DOMAIN-SUFFIX,syncbits.com
 #DOMAIN-SUFFIX,wiz.money
