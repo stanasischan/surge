@@ -38,8 +38,7 @@ DOMAIN-SUFFIX,anchor.fm
 DOMAIN-SUFFIX,washpostpodcasts.com
 DOMAIN-SUFFIX,simplecastaudio.com
 DOMAIN-SUFFIX,dcs.megaphone.fm
-DOMAIN-SUFFIX,tennistv.com
-DOMAIN,dplus-eu-cloudfront.prod-live.h264.io
+DOMAIN-SUFFIX,tennistv.com  
 DOMAIN-SUFFIX,atpmedia.pulselive.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
