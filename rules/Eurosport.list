@@ -31,6 +31,9 @@ DOMAIN,media-shield.live.eurosport.map.fastly.net
 DOMAIN,discoverydp.hb-api.omtrdc.net
 
 DOMAIN,dplus-eu-cloudfront.prod-live.h264.io
+DOMAIN,client-api.arkoselabs.com
+DOMAIN,dci-vdp-hwa-player-prod.web.app
+DOMAIN,c7-androidtv.esp.prod.cd-tv.mercury.dnitv.com
 
 #DOMAIN,eurosport-dlvr-ott.akamaized.net
 #DOMAIN,eurosport-dlvr-ott-vod.akamaized.net
