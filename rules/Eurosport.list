@@ -1,12 +1,11 @@
 DOMAIN,cdn.jsdelivr.net
-
 DOMAIN,a9010d017688211ea9afe0620acb249f-596514373.us-east-1.elb.amazonaws.com
 DOMAIN-SUFFIX,pfld0qg7tn2m958npaamp558n.litix.io
 DOMAIN-SUFFIX,keys.vdp.h264.io
 DOMAIN-SUFFIX,e7329.dscf.akamaiedge.net
 DOMAIN-SUFFIX,a1831.v.akamai.net
 #DOMAIN-SUFFIX,sentry.io
-#DOMAIN-SUFFIX,assets.adobedtm.com
+DOMAIN-SUFFIX,assets.adobedtm.com
 DOMAIN-SUFFIX,dpm.demdex.net
 DOMAIN-SUFFIX,discoverydp.sc.omtrdc.net
 #DOMAIN-SUFFIX,mobile-collector.newrelic.com
@@ -29,11 +28,20 @@ DOMAIN-SUFFIX,eurosport.fr
 DOMAIN-SUFFIX,eurosport.ru
 DOMAIN,media-shield.live.eurosport.map.fastly.net
 DOMAIN,discoverydp.hb-api.omtrdc.net
+DOMAIN,eurosport-dlvr-ott.akamaized.net
+DOMAIN,eurosport-dlvr-ott-vod.akamaized.net
 
 DOMAIN,dplus-eu-cloudfront.prod-live.h264.io
 DOMAIN,client-api.arkoselabs.com
 DOMAIN,dci-vdp-hwa-player-prod.web.app
 DOMAIN,c7-androidtv.esp.prod.cd-tv.mercury.dnitv.com
 
-#DOMAIN,eurosport-dlvr-ott.akamaized.net
-#DOMAIN,eurosport-dlvr-ott-vod.akamaized.net
+DOMAIN,multitv-im-conn.ptqy.gitv.tv
+DOMAIN,ps.eyeota.net
+DOMAIN,bam.nr-data.net
+DOMAIN,js-agent.newrelic.com
+DOMAIN,discovery.demdex.net
+DOMAIN,discoverydp.d3.sc.omtrdc.net
+DOMAIN,token.rubiconproject.com
+DOMAIN,cm.everesttech.net
+DOMAIN,ssa.eurosportplayer.com
