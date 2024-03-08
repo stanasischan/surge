@@ -1,1 +1,8 @@
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,o33249.ingest.sentry.io
+DOMAIN-SUFFIX,api.revenuecat.com
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,bard.google.com
