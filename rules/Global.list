@@ -67,7 +67,8 @@ DOMAIN-SUFFIX,phps.kr
 DOMAIN-SUFFIX,wtatv.com
 DOMAIN-SUFFIX,megaphone.fm
 DOMAIN,streamamg-atp.akamaized.net
-DOMAIN,yxvm.com
+DOMAIN-SUFFIX,yxvm.com
+DOMAIN-SUFFIX,nssurge.com
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
