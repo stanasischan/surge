@@ -9,5 +9,6 @@ DOMAIN,star.content.edge.bamgrid.com
 DOMAIN,star.playback.edge.bamgrid.com
 // 此条与 Disney+ 共用，主要是加载海报，可注释。注释后打开 App 会提示账号漫游，但不影响正常使用。
 // DOMAIN,prod-ripcut-delivery.disney-plus.net
-
+DOMAIN,live-akc-sa-west-2.media.dssott.com
+DOMAIN,live-ftc-sa-west-2.media.dssott.com
 DOMAIN,7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
