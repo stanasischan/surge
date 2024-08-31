@@ -14,4 +14,5 @@ DOMAIN,live-ftc-sa-west-2.media.dssott.com
 DOMAIN,live-ftc-zazu-sa-west-2.media.dssott.com
 DOMAIN,live-qwc-zazu-sa-west-2.media.dssott.com
 DOMAIN,7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
-DOMAIN-SUFFIX,http.global.dns.qwilted-cds.cqloud.com
+//下面这条用于投屏
+//DOMAIN-SUFFIX,http.global.dns.qwilted-cds.cqloud.com
