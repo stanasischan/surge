@@ -3,8 +3,6 @@
 # > self
 DOMAIN-SUFFIX,families.google
 DOMAIN-SUFFIX,api.amazon.co.jp
-DOMAIN-SUFFIX,streamamg.com
-#DOMAIN,streamamg-atp.akamaized.net
 DOMAIN-SUFFIX,github.com
 DOMAIN,raw.githubusercontent.com
 DOMAIN-SUFFIX,githubusercontent.com
@@ -38,8 +36,6 @@ DOMAIN-SUFFIX,anchor.fm
 DOMAIN-SUFFIX,washpostpodcasts.com
 DOMAIN-SUFFIX,simplecastaudio.com
 DOMAIN-SUFFIX,dcs.megaphone.fm
-DOMAIN-SUFFIX,tennistv.com  
-DOMAIN-SUFFIX,atpmedia.pulselive.com
 DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,controld.com
 DOMAIN-SUFFIX,verify.controld.com
