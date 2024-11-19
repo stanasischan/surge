@@ -11,14 +11,6 @@ DOMAIN-SUFFIX,f1prodlive.akamaized.net
 DOMAIN,ott-video-fer-cf.formula1.com
 DOMAIN,ott-video-cf.formula1.com
 
-# > HBO Max
-USER-AGENT,HBOMAX*
-DOMAIN-SUFFIX,hbo.com
-// DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-
 
 
 # > Hulu
