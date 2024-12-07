@@ -1,6 +1,7 @@
 # Global.list
 # (DNS Cache Pollution Protection)
 # > self
+DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,bagevm.com
 DOMAIN-SUFFIX,families.google
 DOMAIN-SUFFIX,api.amazon.co.jp
