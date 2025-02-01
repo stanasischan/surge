@@ -5,9 +5,9 @@ DOMAIN-SUFFIX,api.revenuecat.com
 
 # Deepseek
 # > deepseek
-DOMAIN-SUFFIX,deepseek.com
-DOMAIN-SUFFIX,volces.com
-DOMAIN-SUFFIX,portal101.cn
+#DOMAIN-SUFFIX,deepseek.com
+#DOMAIN-SUFFIX,volces.com
+#DOMAIN-SUFFIX,portal101.cn
 
 
 
