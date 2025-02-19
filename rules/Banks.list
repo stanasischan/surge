@@ -1,4 +1,4 @@
-#Capital One
+# Capital One
 USER-AGENT,CapitalOne*
 USER-AGENT,Capital One*
 DOMAIN-KEYWORD,capitalone
@@ -9,3 +9,13 @@ DOMAIN,capitalone.md-apis.medallia.com
 DOMAIN,mobile-collector.newrelic.com
 DOMAIN,dispatcher.is.autonavi.com
 DOMAIN-SUFFIX,capitalone.com
+
+# AMEX
+USER-AGENT,Amex*
+DOMAIN-KEYWORD,americanexpress
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN-SUFFIX,aexp-static.com
+DOMAIN,aeopprodvip.acxiom.com
+DOMAIN-SUFFIX,aexp.com
+DOMAIN,o4504611328622592.ingest.sentry.io
+DOMAIN,zndhztugwqhlulqht-aexpfeedback.siteintercept.qualtrics.com
