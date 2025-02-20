@@ -10,6 +10,7 @@ DOMAIN,capitalone.md-apis.medallia.com
 DOMAIN,mobile-collector.newrelic.com
 DOMAIN,dispatcher.is.autonavi.com
 DOMAIN,capitalone-resources.digital-cloud.medallia.com
+DOMAIN,dispatcher.is.autonavi.com
 
 # AMEX
 USER-AGENT,Amex*
