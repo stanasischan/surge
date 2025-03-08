@@ -1,5 +1,6 @@
 # > Others
 DOMAIN-SUFFIX,report.check.place
+DOMAIN-SUFFIX,bgp.tools
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
