@@ -67,8 +67,8 @@ DOMAIN-SUFFIX,megaphone.fm
 #DOMAIN,streamamg-atp.akamaized.net
 DOMAIN-SUFFIX,yxvm.com
 DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,uscreditcardguide.com
-DOMAIN-SUFFIX,uscardforum.com
+#DOMAIN-SUFFIX,uscreditcardguide.com
+#DOMAIN-SUFFIX,uscardforum.com
 DOMAIN-SUFFIX,shuzijumin.com
 DOMAIN-SUFFIX,vpsxb.net
 DOMAIN-SUFFIX,piaotia.com
