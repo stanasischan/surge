@@ -51,6 +51,11 @@ DOMAIN-SUFFIX,sohu.com
 # > Migu Video
 DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,miguvideo.com
+# > XiaoHongShu
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,xiaohongshu.com
 
 # (Music)
 # > Qobuz
