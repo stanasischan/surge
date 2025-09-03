@@ -65,10 +65,10 @@ DOMAIN,hbounify-prod.evergent.com
 DOMAIN,dai3fd1oh325y.cloudfront.net
 
 # > Hami Video
-DOMAIN,hls-hichannel.cdn.hinet.net
-DOMAIN-SUFFIX,hamivideo.hinet.net
-DOMAIN-SUFFIX,ott.hinet.net
-DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
+#DOMAIN,hls-hichannel.cdn.hinet.net
+#DOMAIN-SUFFIX,hamivideo.hinet.net
+#DOMAIN-SUFFIX,ott.hinet.net
+#DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
 
 
 
