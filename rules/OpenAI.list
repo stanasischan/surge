@@ -3,6 +3,9 @@ DOMAIN-SUFFIX,ios.chat.openai.com
 
 DOMAIN-SUFFIX,api.revenuecat.com
 
+#Apple Intelligence
+DOMAIN-SUFFIX,apple-relay.apple.com
+
 # Deepseek
 # > deepseek
 #DOMAIN-SUFFIX,deepseek.com
