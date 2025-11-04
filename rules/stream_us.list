@@ -1,9 +1,3 @@
-# > self
-DOMAIN,lens.l.google.com
-DOMAIN-SUFFIX,truthsocial.com
-#DOMAIN-SUFFIX,duolingo.com
-DOMAIN-SUFFIX,onlyfans.com
-DOMAIN-SUFFIX,id.me
 
 # > F1 TV
 #DOMAIN-SUFFIX,f1tv.formula1.com
@@ -15,33 +9,6 @@ DOMAIN-SUFFIX,id.me
 DOMAIN-SUFFIX,streamamg.com
 
 
-# > Hulu
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
-DOMAIN-KEYWORD,hulu
-DOMAIN,assetshuluimcom-a.akamaihd.net
-USER-AGENT,*hulu*
-#DOMAIN-SUFFIX,newrelic.com
-DOMAIN-SUFFIX,tealiumiq.com
-
-# > ESPN
-DOMAIN-SUFFIX,espn.com
-DOMAIN-SUFFIX,espncdn.com
-USER-AGENT,*espn*
-DOMAIN-SUFFIX,vision.fn-pz.com
-DOMAIN-SUFFIX,sdk.iad-06.braze.com
-DOMAIN-SUFFIX,api.twdcstories.com
-DOMAIN-SUFFIX,cdn.optimizely.com
-DOMAIN-SUFFIX,us.edge.bamgrid.com
-DOMAIN-SUFFIX,assets.adobedtm.com
-DOMAIN-SUFFIX,streams.adobeprimetime.com
-DOMAIN-SUFFIX,sp.auth.adobe.com
-DOMAIN,espn.com
-DOMAIN,espncdn.com
-DOMAIN,watchespn.com
-DOMAIN,espnplayer.com
-DOMAIN-KEYWORD,espn
 
 
 # > Paramount+
