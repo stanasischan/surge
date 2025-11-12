@@ -1,8 +1,10 @@
 # > Apple Books
 USER-AGENT,Books*
+DOMAIN,buy.itunes.apple.com
 DOMAIN-SUFFIX,books.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,bookkeeper.itunes.apple.com
+DOMAIN,books-analytics-events.apple.com
 
 # > Apple News
 DOMAIN,gspe1-ssl.ls.apple.com // 必要，但会导致「地图」使用「TOMTOM」版本数据
@@ -28,11 +30,11 @@ DOMAIN,bookkeeper.itunes.apple.com
 
 # App Store
 # Store content such as apps, books, and music
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN,ppq.apple.com // Enterprise App validation
+#DOMAIN-SUFFIX,apps.apple.com
+#DOMAIN-SUFFIX,itunes.apple.com
+#DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+#DOMAIN-SUFFIX,mzstatic.com
+#DOMAIN,ppq.apple.com // Enterprise App validation
 
 # > App Store Connect
 #DOMAIN,appstoreconnect.apple.com
