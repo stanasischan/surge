@@ -2,6 +2,7 @@
 # (DNS Cache Pollution Protection)
 # > self
 DOMAIN-SUFFIX,rochub.xyz
+DOMAIN-SUFFIX,zdz.plus
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,bagevm.com
