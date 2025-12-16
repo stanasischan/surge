@@ -1,6 +1,7 @@
 # Global.list
 # (DNS Cache Pollution Protection)
 # > self
+DOMAIN-SUFFIX,023168.xyz
 DOMAIN-SUFFIX,rochub.xyz
 DOMAIN-SUFFIX,zdz.plus
 DOMAIN-SUFFIX,nodeseek.com
