@@ -1,4 +1,6 @@
-# > Embypub
+# > Emby
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,rochub.xyz
-USER-AGENT,Infuse*
+DOMAIN-SUFFIX,023168.xyz
+DOMAIN-SUFFIX,vban.xyz
+//USER-AGENT,Infuse*
