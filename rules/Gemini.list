@@ -19,3 +19,8 @@ DOMAIN,gemini.google.com
 DOMAIN-KEYWORD,notebooklm.google
 # > Search Labs
 DOMAIN-KEYWORD,labs.google
+
+# 保持 IP 一致，防止风控
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
