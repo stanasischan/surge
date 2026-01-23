@@ -4,6 +4,9 @@ DOMAIN-SUFFIX,truthsocial.com
 DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,id.me
 
+# > Google Voice
+DOMAIN,lens.l.google.com
+
 # > Hulu
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
