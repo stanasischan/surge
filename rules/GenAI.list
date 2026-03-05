@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,uscardforum.com
 
 
 
+
 # Apple Intelligence
 // https://support.apple.com/zh-cn/101555
 // 搜索服务，包括 Siri、聚焦、查询、Safari 浏览器、新闻、信息和音乐
@@ -30,6 +31,32 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,anthropic.com
 
+# OpenAI
+# > ChatGPT
+AND,((DOMAIN-KEYWORD,openaicom-api-), (DOMAIN-SUFFIX,azurefd.net))
+AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-), (DOMAIN-SUFFIX,webpubsub.azure.com))
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,host.livekit.cloud
+DOMAIN,turn.livekit.cloud
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN,api.statsig.com
+DOMAIN,api-iam.intercom.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openai.com.cdn.cloudflare.net
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaicom
+DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,api.revenuecat.com
+
 
 # Cloudflare
 # > AI Gateway
@@ -41,9 +68,27 @@ DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 
-
-# Groq
-DOMAIN-SUFFIX,groq.com
+# Google
+# > AI Studio
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+# > DeepMind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+# > Gemini
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,bard.google.com
+DOMAIN,gemini.google.com
+# > NotebookLM
+DOMAIN-KEYWORD,notebooklm.google
+# > Search Labs
+DOMAIN-KEYWORD,labs.google
 
 # JetBrains AI
 DOMAIN-SUFFIX,grazie.ai
@@ -60,6 +105,10 @@ DOMAIN,www.bing.com
 # > GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
 
+# NVIDIA
+# > Groq
+DOMAIN-SUFFIX,groq.com
+
 # Perplexity
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
@@ -67,12 +116,16 @@ DOMAIN,pplx-res.cloudinary.com
 
 # xAI
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.com
 DOMAIN-SUFFIX,x.ai  
 
 # ByteDance
 # > Doubao Dola
-DOMAIN-SUFFIX,dola.com,extended-matching
-DOMAIN-SUFFIX,cici.com,extended-matching
-DOMAIN-SUFFIX,ciciai.com,extended-matching
-DOMAIN,abtestvm-sg.bytedance.com,extended-matching
-DOMAIN-WILDCARD,abtest*.byteoversea.com,extended-matching
+DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,cici.com
+DOMAIN-SUFFIX,ciciai.com
+DOMAIN,abtestvm-sg.bytedance.com
+DOMAIN-WILDCARD,abtest*.byteoversea.com
+
+# Affinity
+DOMAIN,d3ssuo6fbvr.cloudfront.net
