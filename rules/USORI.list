@@ -4,6 +4,10 @@ DOMAIN-SUFFIX,truthsocial.com
 DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,id.me
 
+#F1 AppleTV
+DOMAIN,linear.tv.apple.com
+DOMAIN,play-edge.itunes.apple.com
+
 # > Google Voice
 DOMAIN,lens.l.google.com
 
