@@ -5,8 +5,11 @@ DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,id.me
 
 #F1 AppleTV
+#DOMAIN,known-issues.apple.com
+#DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
+
 # USCardForum
 DOMAIN-SUFFIX,uscreditcardguide.com
 DOMAIN-SUFFIX,uscardforum.com
