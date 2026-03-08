@@ -7,6 +7,10 @@ DOMAIN-SUFFIX,id.me
 #F1 AppleTV
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
+# USCardForum
+DOMAIN-SUFFIX,uscreditcardguide.com
+DOMAIN-SUFFIX,uscardforum.com
+
 
 # > Google Voice
 DOMAIN,lens.l.google.com
