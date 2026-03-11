@@ -1,3 +1,9 @@
+#SELF
+# USCardForum
+DOMAIN-SUFFIX,uscreditcardguide.com
+DOMAIN-SUFFIX,uscardforum.com
+
+
 # > CATCHPLAY+
 USER-AGENT,CATCHPLAY*
 DOMAIN-SUFFIX,catchplay.com
