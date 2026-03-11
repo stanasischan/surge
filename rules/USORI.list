@@ -11,8 +11,8 @@ DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
 
 # USCardForum
-DOMAIN-SUFFIX,uscreditcardguide.com
-DOMAIN-SUFFIX,uscardforum.com
+#DOMAIN-SUFFIX,uscreditcardguide.com
+#DOMAIN-SUFFIX,uscardforum.com
 
 
 # > Google Voice
