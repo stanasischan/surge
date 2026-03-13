@@ -23,8 +23,12 @@ DOMAIN-SUFFIX,gateway.icloud.com
 
 # Anthropic
 # > Claude
-DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 
 # OpenAI
