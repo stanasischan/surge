@@ -4,6 +4,20 @@ DOMAIN-SUFFIX,truthsocial.com
 DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,id.me
 
+# > Hilton Main Services
+DOMAIN-SUFFIX,hilton.com
+DOMAIN-SUFFIX,hilton.io
+DOMAIN-SUFFIX,hiltonapi.com
+DOMAIN-SUFFIX,hiltonres.com
+DOMAIN-SUFFIX,hiltonhonors.com
+DOMAIN-SUFFIX,hiltonworldwide.com
+DOMAIN-SUFFIX,hilton-getaways.com
+
+# > Hilton App Analytics & API (容易触发报错的拦截重灾区)
+DOMAIN,hilton.data.adobedc.net
+DOMAIN,api-hilton.conductrics.net
+
+
 #F1 AppleTV
 #DOMAIN,known-issues.apple.com
 #DOMAIN,hls-amt.itunes.apple.com
