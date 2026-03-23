@@ -1,4 +1,8 @@
 payload:
+  ##SELF
+  # USCardForum
+  - DOMAIN-SUFFIX,uscreditcardguide.com
+  - DOMAIN-SUFFIX,uscardforum.com
   ## GenAI
   # Apple Intelligence
   - DOMAIN-SUFFIX,smoot.apple.com
