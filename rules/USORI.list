@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,hiltonres.com
 DOMAIN-SUFFIX,hiltonhonors.com
 DOMAIN-SUFFIX,hiltonworldwide.com
 DOMAIN-SUFFIX,hilton-getaways.com
+DOMAIN,zn2rr2q4mrywz3tzf-hiltonreservations.siteintercept.qualtrics.com
+DOMAIN,api-hilton.conductrics.net
 
 # > Hilton App Analytics & API (容易触发报错的拦截重灾区)
 DOMAIN,hilton.data.adobedc.net
