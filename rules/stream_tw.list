@@ -3,6 +3,11 @@
 DOMAIN-SUFFIX,uscreditcardguide.com
 DOMAIN-SUFFIX,uscardforum.com
 
+# Cloudflare 验证
+DOMAIN,challenges.cloudflare.com,HiNet
+DOMAIN,stun.cloudflare.com,HiNet
+
+
 
 # > CATCHPLAY+
 USER-AGENT,CATCHPLAY*
