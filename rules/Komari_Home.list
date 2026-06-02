@@ -1,0 +1,5 @@
+# > Komari Direct Connect at Home
+
+PROCESS-NAME,/Users/CN/.komari/agent,DIRECT
+DOMAIN,status.stanasis.net,DIRECT
+DOMAIN,server.stanasis.net,DIRECT
