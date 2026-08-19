@@ -2,3 +2,9 @@
 # > ATP TennisTV
 DOMAIN,streamamg-atp.akamaized.net
 DOMAIN,streamamg-atp-vod.akamaized.net
+
+# > Telegram
+DOMAIN,venus.web.telegram.org
+DOMAIN,venus-1.web.telegram.org
+DOMAIN,vesta.web.telegram.org
+DOMAIN,vesta-1.web.telegram.org

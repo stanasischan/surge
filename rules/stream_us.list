@@ -5,8 +5,11 @@
 #DOMAIN,ott-video-fer-cf.formula1.com
 #DOMAIN,ott-video-cf.formula1.com
 
-
-
+# > Telegram
+DOMAIN,pluto.web.telegram.org
+DOMAIN,pluto-1.web.telegram.org
+DOMAIN,aurora.web.telegram.org
+DOMAIN,aurora-1.web.telegram.org
 
 
 # > Paramount+
