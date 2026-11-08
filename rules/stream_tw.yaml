@@ -1,0 +1,80 @@
+payload:
+  #SELF
+  # USCardForum
+  - DOMAIN-SUFFIX,uscreditcardguide.com
+  - DOMAIN-SUFFIX,uscardforum.com
+
+  # Cloudflare 验证
+  - DOMAIN,challenges.cloudflare.com,HiNet
+  - DOMAIN,stun.cloudflare.com,HiNet
+
+  # > CATCHPLAY+
+  - USER-AGENT,CATCHPLAY*
+  - DOMAIN-SUFFIX,catchplay.com
+  - DOMAIN,asiaplay-origin.s3.amazonaws.com
+  - DOMAIN,tra-ww000-cp.akamaized.net
+  - DOMAIN,ols-ww000-cp.akamaized.net
+  - DOMAIN,ols-ww100-cp.akamaized.net
+  - DOMAIN,dkfhw9rzsr80z.cloudfront.net
+  - DOMAIN,a1665.w10.akamai.net
+  - DOMAIN,in.appcenter.ms
+
+  # > friDay
+  # > friDay
+  - USER-AGENT,friDay*
+  - DOMAIN-SUFFIX,friday.tw
+  - DOMAIN-SUFFIX,fridaylogger.com
+  - DOMAIN,aka01p.akamaized.net
+
+  # > Gagaoolala
+  - DOMAIN-SUFFIX,gagaoolala.com
+  - DOMAIN-SUFFIX,gol-ns-videos.akamaized.net
+
+  # > LINE TV
+  - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
+  - DOMAIN-SUFFIX,chocotv.com.tw
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - USER-AGENT,LINE%20TV*
+  - PROCESS-NAME,com.linecorp.linetv
+
+  # > KKBOX
+  - USER-AGENT,*KKBOX
+  - DOMAIN-SUFFIX,kkbox.com
+  - DOMAIN-SUFFIX,kkbox.com.tw
+  - DOMAIN-SUFFIX,kfs.io
+  # > KKTV
+  - USER-AGENT,KKTV*
+  - USER-AGENT,com.kktv*
+  - DOMAIN-SUFFIX,kktv.me
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN,kktv-theater.kk.stream
+  - DOMAIN,theater-kktv.cdn.hinet.net
+
+  # > Bahamut
+  - USER-AGENT,Anime*
+  - DOMAIN-SUFFIX,bahamut.com.tw
+  - DOMAIN-SUFFIX,gamer.com.tw
+  - DOMAIN,gamer-cds.cdn.hinet.net
+  - DOMAIN,gamer2-cds.cdn.hinet.net
+
+  # > HBO GO Asia
+  # USER-AGENT,HBO%20GO%20PROD*
+  # DOMAIN-KEYWORD,hboasia
+  - DOMAIN-KEYWORD,hbogoasia
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN,hbolb.onwardsmg.com
+  - DOMAIN,hbounify-prod.evergent.com
+  # DOMAIN,hbogoprod-vod.akamaized.net
+  # DOMAIN,hboasialive.akamaized.net
+  # DOMAIN,bcbolthboa-a.akamaihd.net
+  - DOMAIN,dai3fd1oh325y.cloudfront.net
+
+  # > Hami Video
+  - DOMAIN,hls-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,hamivideo.hinet.net
+  - DOMAIN-SUFFIX,ott.hinet.net
+  - DOMAIN-KEYWORD,hamivideo.cdn.hinet.net

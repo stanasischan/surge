@@ -1,0 +1,44 @@
+payload:
+  # > Apple Books
+  - USER-AGENT,Books*
+  - DOMAIN,buy.itunes.apple.com
+  - DOMAIN-SUFFIX,books.apple.com
+  - DOMAIN,books.itunes.apple.com
+  - DOMAIN,bookkeeper.itunes.apple.com
+  - DOMAIN,books-analytics-events.apple.com
+
+  # > Apple News
+  - DOMAIN,gspe1-ssl.ls.apple.com  # 必要，但会导致「地图」使用「TOMTOM」版本数据
+  - PROCESS-NAME,News
+  - USER-AGENT,AppleNews*
+  - USER-AGENT,News*  # 「今日头条」亦使用此，故不启用
+  - USER-AGENT,com.apple.news*
+  - DOMAIN-SUFFIX,apple.news
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - DOMAIN,apple.comscoreresearch.com
+
+  # > TestFlight
+  - DOMAIN,beta.apple.com
+  - DOMAIN,testflight.apple.com
+
+  # > Podcasts
+  - DOMAIN,amp-api.podcasts.apple.com
+  - DOMAIN,bookkeeper.itunes.apple.com
+
+  # App Store
+  # Store content such as apps, books, and music
+  #DOMAIN-SUFFIX,apps.apple.com
+  #DOMAIN-SUFFIX,itunes.apple.com
+  #DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+  #DOMAIN-SUFFIX,mzstatic.com
+  #DOMAIN,ppq.apple.com // Enterprise App validation
+
+  # > App Store Connect
+  #DOMAIN,appstoreconnect.apple.com
+  #DOMAIN,iosapps-ssl.itunes.apple.com
+  #DOMAIN,itcmobile.itunes.apple.com
+
+  # Fitness+
+  - DOMAIN,hls-svod.itunes.apple.com

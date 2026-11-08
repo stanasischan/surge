@@ -1,0 +1,86 @@
+payload:
+  # > self
+  - DOMAIN-SUFFIX,truthsocial.com
+  #DOMAIN-SUFFIX,duolingo.com
+  - DOMAIN-SUFFIX,onlyfans.com
+  - DOMAIN-SUFFIX,id.me
+
+  # > Hilton Main Services
+  - DOMAIN-SUFFIX,hilton.com
+  - DOMAIN-SUFFIX,hilton.io
+  - DOMAIN-SUFFIX,hiltonapi.com
+  - DOMAIN-SUFFIX,hiltonres.com
+  - DOMAIN-SUFFIX,hiltonhonors.com
+  - DOMAIN-SUFFIX,hiltonworldwide.com
+  - DOMAIN-SUFFIX,hilton-getaways.com
+  - DOMAIN,zn2rr2q4mrywz3tzf-hiltonreservations.siteintercept.qualtrics.com
+  - DOMAIN,api-hilton.conductrics.net
+
+  # > Hilton App Analytics & API (容易触发报错的拦截重灾区)
+  - DOMAIN,hilton.data.adobedc.net
+  - DOMAIN,api-hilton.conductrics.net
+
+  #F1 AppleTV
+  #DOMAIN,known-issues.apple.com
+  #DOMAIN,hls-amt.itunes.apple.com
+  - DOMAIN,linear.tv.apple.com
+  - DOMAIN,play-edge.itunes.apple.com
+
+  # > Google Voice
+  - DOMAIN,lens.l.google.com
+
+  # > Hulu
+  - DOMAIN-SUFFIX,hulu.com
+  - DOMAIN-SUFFIX,huluim.com
+  - DOMAIN-SUFFIX,hulustream.com
+  - DOMAIN-KEYWORD,hulu
+  - DOMAIN,assetshuluimcom-a.akamaihd.net
+  - USER-AGENT,*hulu*
+  #DOMAIN-SUFFIX,newrelic.com
+  - DOMAIN-SUFFIX,tealiumiq.com
+
+  # > ESPN
+  - DOMAIN-SUFFIX,espn.com
+  - DOMAIN-SUFFIX,espncdn.com
+  - USER-AGENT,*espn*
+  - DOMAIN-SUFFIX,vision.fn-pz.com
+  - DOMAIN-SUFFIX,sdk.iad-06.braze.com
+  - DOMAIN-SUFFIX,api.twdcstories.com
+  - DOMAIN-SUFFIX,cdn.optimizely.com
+  - DOMAIN-SUFFIX,us.edge.bamgrid.com
+  - DOMAIN-SUFFIX,assets.adobedtm.com
+  - DOMAIN-SUFFIX,streams.adobeprimetime.com
+  - DOMAIN-SUFFIX,sp.auth.adobe.com
+  - DOMAIN,espn.com
+  - DOMAIN,espncdn.com
+  - DOMAIN,watchespn.com
+  - DOMAIN,espnplayer.com
+  - DOMAIN-KEYWORD,espn
+
+  # > Others
+  - DOMAIN-SUFFIX,report.check.place
+  - DOMAIN-SUFFIX,bgp.tools
+
+  # > Reddit
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redditmail.com
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
+  - DOMAIN-SUFFIX,reddituploads.com
+  - DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
+  - DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
+
+  # > Linkedin
+  - DOMAIN,e122475.dscg.akamaiedge.net
+  - DOMAIN,licdn.cn.cdn20.com
+  - DOMAIN,linkedin.sc.omtrdc.net
+  - DOMAIN-SUFFIX,bizographics.com
+  - DOMAIN-SUFFIX,l-0005.dc-msedge.net
+  - DOMAIN-SUFFIX,l-0005.l-msedge.net
+  - DOMAIN-SUFFIX,licdn.cn
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,linkedin.at
+  - DOMAIN-SUFFIX,linkedin.cn
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,lnkd.in

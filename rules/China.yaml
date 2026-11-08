@@ -1,0 +1,162 @@
+payload:
+  #Self
+  - DOMAIN-SUFFIX,foodtop1.com
+  - DOMAIN-SUFFIX,204cloud.com
+  - DOMAIN-SUFFIX,mcdn.mobaiemby.site
+  - DOMAIN-SUFFIX,mygcdn2.mobaiemby.site
+  - DOMAIN-SUFFIX,mygcns.mobaiemby.site
+
+  # (Video)
+  # NAME: DouYin
+  - DOMAIN,lf3-static.bytednsdoc.com
+  - DOMAIN,v5-dy-o-abtest.zjcdn.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,idouyinvod.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,toutiao.com
+  - DOMAIN-SUFFIX,zjcdn.com
+  # > Acfun
+  - DOMAIN-SUFFIX,acfun.cn
+  - DOMAIN-SUFFIX,aixifan.com
+  # > bilibili
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,hdslb.com
+  # > Tencent Video
+  - DOMAIN-SUFFIX,video.qq.com
+  - DOMAIN-SUFFIX,i.qq.com
+  - DOMAIN-SUFFIX,v.qq.com
+  # > iQiyi
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,71edge.com
+  # > Youku
+  - DOMAIN-SUFFIX,soku.com
+  - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,ykimg.com
+  # > XiGua
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,snssdk.com
+  # > HunanTV
+  - DOMAIN-SUFFIX,hitv.com
+  - DOMAIN-SUFFIX,hunantv.com
+  - DOMAIN-SUFFIX,mgtv.com
+  # > Le
+  - DOMAIN-SUFFIX,le.com
+  # > PPLive
+  - DOMAIN-SUFFIX,pplive.cn
+  - DOMAIN-SUFFIX,pptv.com
+  # > Sohu Video
+  - DOMAIN-SUFFIX,itc.cn
+  - DOMAIN-SUFFIX,sohu.com
+  # > Migu Video
+  - DOMAIN-SUFFIX,cmvideo.cn
+  - DOMAIN-SUFFIX,miguvideo.com
+  # > XiaoHongShu
+  - DOMAIN-SUFFIX,fengkongcloud.com
+  - DOMAIN-SUFFIX,xhscdn.com
+  - DOMAIN-SUFFIX,xhscdn.net
+  - DOMAIN-SUFFIX,xiaohongshu.com
+
+  # (Music)
+  # > Qobuz
+  - DOMAIN,streaming-qobuz-sec.akamaized.net
+  # > QQ Music
+  - DOMAIN-SUFFIX,music.qq.com
+  - DOMAIN-SUFFIX,music.tc.qq.com
+  - DOMAIN-SUFFIX,qqmusic.qq.com
+  - DOMAIN-SUFFIX,tencentmusic.com
+  - DOMAIN-SUFFIX,y.qq.com
+  - DOMAIN,aqqmusic.tc.qq.com
+  - DOMAIN,moo.qq.com
+  # > China Music Corp
+  - DOMAIN-SUFFIX,kuwo.cn
+  - DOMAIN-SUFFIX,kugou.com
+  # > Netease Cloud Music
+  - DOMAIN-SUFFIX,music.163.com
+  - DOMAIN-SUFFIX,music.126.net
+  - DOMAIN,mam.netease.com
+  - DOMAIN,api.iplay.163.com
+  # > Qianqian Music
+  - DOMAIN-SUFFIX,qianqian.com
+  - DOMAIN-SUFFIX,taihe.com
+  # > Migu Music
+  - DOMAIN-SUFFIX,migu.cn
+  # > Xiaomi
+  - DOMAIN-SUFFIX,ai.xiaomi.com
+  - DOMAIN-SUFFIX,music.xiaomi.com
+  - DOMAIN-SUFFIX,dmhmusic.com
+  # China Area Network
+  - DOMAIN-SUFFIX,flyert.com
+  - DOMAIN-SUFFIX,gandi.net
+  - DOMAIN-SUFFIX,snapdrop.net
+  - DOMAIN,download.jetbrains.com
+  - DOMAIN,origin-a.akamaihd.net  # Origin Download
+  # —(Microsoft)—
+  # > Outlook
+  - DOMAIN,outlook.office365.com
+  - DOMAIN,smtp-mail.outlook.com
+  - DOMAIN,smtp.office365.com
+  # > Windows Server Update Services
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,update.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN,download.microsoft.com
+  - DOMAIN,wustat.windows.com
+  - DOMAIN,ntservicepack.microsoft.com
+  # ——
+
+  # > Steam
+  - DOMAIN-SUFFIX,cm.steampowered.com  # Steam Connect Manager Servers
+  - DOMAIN,api.steampowered.com
+  # > Tencent
+  - IP-CIDR,182.254.116.0/24,no-resolve
+  - IP-CIDR,203.205.238.0/23,no-resolve
+  - IP-CIDR,203.205.254.0/23,no-resolve
+  # > IP Query
+  - DOMAIN,ip.istatmenus.app
+  - DOMAIN,sms.imagetasks.com
+  # > Speed Test
+  - DOMAIN-SUFFIX,netspeedtestmaster.com
+  - DOMAIN,speedtest.macpaw.com
+  # > Private Tracker
+  - DOMAIN-SUFFIX,acg.rip
+  - DOMAIN-SUFFIX,animebytes.tv
+  - DOMAIN-SUFFIX,awesome-hd.me
+  - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN-SUFFIX,chdbits.co
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,comicat.org
+  - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,hdbits.org
+  - DOMAIN-SUFFIX,hdchina.org
+  - DOMAIN-SUFFIX,hddolby.com
+  - DOMAIN-SUFFIX,hdhome.org
+  - DOMAIN-SUFFIX,hdsky.me
+  - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,morethan.tv
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,myanonamouse.net
+  - DOMAIN-SUFFIX,nanyangpt.com
+  - DOMAIN-SUFFIX,ncore.cc
+  - DOMAIN-SUFFIX,open.cd
+  - DOMAIN-SUFFIX,ourbits.club
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,pterclub.com
+  - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tjupt.org
+  - DOMAIN-SUFFIX,totheglory.im

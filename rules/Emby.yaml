@@ -1,0 +1,12 @@
+payload:
+  # > Emby
+  - DOMAIN-SUFFIX,emby.wtf
+  - DOMAIN-SUFFIX,rochub.xyz
+  - DOMAIN-SUFFIX,023168.xyz
+  - DOMAIN-SUFFIX,223789.xyz
+  - DOMAIN-SUFFIX,vban.xyz
+  - DOMAIN-SUFFIX,zdz.plus
+  - DOMAIN-SUFFIX,m.mobaiemby.site
+  - DOMAIN-SUFFIX,myg2.mobaiemby.site
+  # USER-AGENT,Infuse*
+  - DOMAIN-SUFFIX,mobaiemby.site

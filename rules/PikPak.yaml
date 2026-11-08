@@ -1,0 +1,5 @@
+payload:
+  # > Pikpak
+  - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-SUFFIX,mypikpak.net
+  - USER-AGENT,*PikPak*
