@@ -1,7 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,espn.com
   - DOMAIN-SUFFIX,espncdn.com
-  - USER-AGENT,*espn*
   - DOMAIN-SUFFIX,vision.fn-pz.com
   - DOMAIN-SUFFIX,sdk.iad-06.braze.com
   - DOMAIN-SUFFIX,api.twdcstories.com

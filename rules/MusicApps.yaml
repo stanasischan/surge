@@ -19,22 +19,16 @@ payload:
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,spotify.com
   - IP-CIDR,35.186.224.47/32,no-resolve
-  - USER-AGENT,*Spotify*
-  - USER-AGENT,Spotify*
   - PROCESS-NAME,com.spotify.music
   # > TIDAL
-  - USER-AGENT,TIDAL*
   - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
   - DOMAIN-SUFFIX,tidalhifi.com
   - DOMAIN-SUFFIX,wimpmusic.com
-  - USER-AGENT,TIDAL*dia
   # > Deezer
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,dzcdn.net
-  - USER-AGENT,Deezer*
   # > QOBUZ
-  - USER-AGENT,Qobuz*
   - DOMAIN-SUFFIX,qobuz.com
   - DOMAIN-SUFFIX,cobeuz.fr
   - DOMAIN-SUFFIX,cobuz.fr

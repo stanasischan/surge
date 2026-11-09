@@ -1,7 +1,5 @@
 payload:
   # Capital One
-  - USER-AGENT,CapitalOne*
-  - USER-AGENT,Capital One*
   - DOMAIN-KEYWORD,capitalone
   - DOMAIN-SUFFIX,capitalone.com
   - DOMAIN,browser-intake-us5-datadoghq.com
@@ -14,7 +12,6 @@ payload:
   - DOMAIN,dispatcher.is.autonavi.com
 
   # AMEX
-  - USER-AGENT,Amex*
   - DOMAIN-KEYWORD,americanexpress
   - DOMAIN-SUFFIX,americanexpress.com
   - DOMAIN-SUFFIX,aexp-static.com

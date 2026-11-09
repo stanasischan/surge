@@ -13,9 +13,7 @@ payload:
 
   # > Paramount+
   # US UA
-  - USER-AGENT,PPlus*
   # Intl. UA
-  - USER-AGENT,ParamountPlus*
   - DOMAIN-SUFFIX,cbsi.com
   - DOMAIN-SUFFIX,cbsaavideo.com  # 播放
   - DOMAIN,vod-gcs-cedexis.cbsaavideo.com
@@ -42,7 +40,6 @@ payload:
   - DOMAIN,cbsn-us.cbsnstream.cbsnews.com
 
   # > Peacock TV
-  - USER-AGENT,peacock*
   - DOMAIN-SUFFIX,cdn.peacocktv.com
   - DOMAIN-SUFFIX,peacocktv.com
   # 屏蔽广告

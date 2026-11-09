@@ -54,5 +54,4 @@ payload:
   - DOMAIN,players.brightcove.net
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN-SUFFIX,optimizely.com
-  - USER-AGENT,DAZN*
   - DOMAIN-KEYWORD,dazn

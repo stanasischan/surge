@@ -116,7 +116,6 @@ payload:
 
   # (D)
   # > Douban
-  - AND,((USER-AGENT,Frodo*), (DOMAIN,119.29.29.29))
 
   # (G)
   # > Google
@@ -371,7 +370,6 @@ payload:
 
   # (Z)
   # > Zhihu
-  - USER-AGENT,AVOS*
   - DOMAIN,appcloud2.in.zhihu.com
   - DOMAIN,mqtt.zhihu.com
   - DOMAIN,sugar.zhihu.com

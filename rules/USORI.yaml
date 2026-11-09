@@ -35,14 +35,12 @@ payload:
   - DOMAIN-SUFFIX,hulustream.com
   - DOMAIN-KEYWORD,hulu
   - DOMAIN,assetshuluimcom-a.akamaihd.net
-  - USER-AGENT,*hulu*
   #DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,tealiumiq.com
 
   # > ESPN
   - DOMAIN-SUFFIX,espn.com
   - DOMAIN-SUFFIX,espncdn.com
-  - USER-AGENT,*espn*
   - DOMAIN-SUFFIX,vision.fn-pz.com
   - DOMAIN-SUFFIX,sdk.iad-06.braze.com
   - DOMAIN-SUFFIX,api.twdcstories.com

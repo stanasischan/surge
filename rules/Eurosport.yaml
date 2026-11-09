@@ -18,7 +18,6 @@ payload:
   #DOMAIN-SUFFIX,ws.batch.com
   #DOMAIN-SUFFIX,notify.bugsnag.com
   - DOMAIN-SUFFIX,mobile-data.onetrust.io
-  - USER-AGENT,Eurosport*
   - DOMAIN,europe-fastly-mediashield-live-prod.cdn.h264.io
   - DOMAIN-SUFFIX,akamai.prod-live.h264.io
   - DOMAIN,eu3-prod-images.disco-api.com
