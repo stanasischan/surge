@@ -1,0 +1,165 @@
+payload:
+  # Global.list
+
+  # > Telegram
+  - DOMAIN,flora.web.telegram.org
+  - DOMAIN,flora-1.web.telegram.org
+
+  # (DNS Cache Pollution Protection)
+  # > self
+  - DOMAIN-SUFFIX,023168.xyz
+  - DOMAIN-SUFFIX,rochub.xyz
+  - DOMAIN-SUFFIX,zdz.plus
+  - DOMAIN-SUFFIX,nodeseek.com
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,bagevm.com
+  - DOMAIN-SUFFIX,families.google
+  - DOMAIN-SUFFIX,api.amazon.co.jp
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN,raw.githubusercontent.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,bandwagonhost.com
+  - DOMAIN-SUFFIX,stboy.net
+  - DOMAIN-SUFFIX,lowendtalk.com
+  - DOMAIN-SUFFIX,lowendbox.com
+  - DOMAIN,i0.wp.com
+  - DOMAIN,i1.wp.com
+  - DOMAIN,i2.wp.com
+  - DOMAIN-SUFFIX,tawk.to
+  - DOMAIN-SUFFIX,buysellads.com
+  - DOMAIN,secure.gravatar.com
+  - DOMAIN,device-metrics-us.amazon.com
+  - DOMAIN,a233avodhlss3ww-a.akamaihd.net
+  - DOMAIN,a73avodhlss3ww-a.akamaihd.net
+  - DOMAIN-SUFFIX,overcast.fm
+  - DOMAIN-SUFFIX,dowjones.io
+  - DOMAIN-SUFFIX,economist.com
+  - IP-CIDR,66.94.0.0/19,no-resolve
+  - IP-CIDR,206.29.177.36/32,no-resolve
+  - IP-CIDR,208.54.0.0/16,no-resolve
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,xbiquge.so
+  - DOMAIN-SUFFIX,ozan.com
+  - DOMAIN,oldubil.colendilabs.com
+  - DOMAIN,traffic.omny.fm
+  - DOMAIN-SUFFIX,anchor.fm
+  - DOMAIN-SUFFIX,washpostpodcasts.com
+  - DOMAIN-SUFFIX,simplecastaudio.com
+  - DOMAIN-SUFFIX,dcs.megaphone.fm
+  - DOMAIN-SUFFIX,pdst.fm
+  - DOMAIN-SUFFIX,controld.com
+  - DOMAIN-SUFFIX,verify.controld.com
+  - DOMAIN-SUFFIX,rank-tennis.com
+  - DOMAIN-SUFFIX,syncbits.com
+  #DOMAIN-SUFFIX,wiz.money
+  - DOMAIN-SUFFIX,feedx.net
+  - DOMAIN-SUFFIX,ankiweb.net
+  - DOMAIN-SUFFIX,docofcard.com
+  - DOMAIN-SUFFIX,docofcard.disqus.com
+  - DOMAIN-SUFFIX,wikipedia.org
+  - DOMAIN-SUFFIX,wikimedia.org
+  #for Max#
+  - DOMAIN,akm.prd.media.h264.io
+  - DOMAIN,fly.prd.media.h264.io
+  - DOMAIN,cf.prd.media.h264.io
+  ####
+  - DOMAIN-SUFFIX,duyaoss.com
+  - DOMAIN-SUFFIX,cloudcone.com
+  - DOMAIN-SUFFIX,hostloc.com
+  - DOMAIN-SUFFIX,hostevaluate.com
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,lowendspirit.com
+  - DOMAIN-SUFFIX,phps.kr
+  - DOMAIN-SUFFIX,wtatv.com
+  - DOMAIN-SUFFIX,megaphone.fm
+  #DOMAIN,streamamg-atp.akamaized.net
+  - DOMAIN-SUFFIX,yxvm.com
+  - DOMAIN-SUFFIX,nssurge.com
+  - DOMAIN-SUFFIX,shuzijumin.com
+  - DOMAIN-SUFFIX,vpsxb.net
+  - DOMAIN-SUFFIX,piaotia.com
+  - DOMAIN-SUFFIX,misaka.io
+  - DOMAIN-SUFFIX,bestvm.cloud
+  - DOMAIN-SUFFIX,soutong.men
+  - DOMAIN-SUFFIX,biquge.tw
+
+  # > Pornhub
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,pronstore.com
+  - PROCESS-NAME,com.app.pornhub
+
+  # > github
+  - DOMAIN-SUFFIX,atom.io
+  - DOMAIN-SUFFIX,dependabot.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,myoctocat.com
+  - DOMAIN-SUFFIX,npm.community
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,rawgit.com
+  - DOMAIN-KEYWORD,github
+
+  # > Microsoft
+
+  # > Twitter
+  # > Twitter
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twitpic.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,twitter.jp
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
+
+  # Telegram
+  - DOMAIN-SUFFIX,cdn-telegram.org
+  - DOMAIN-SUFFIX,comments.app
+  - DOMAIN-SUFFIX,graph.org
+  - DOMAIN-SUFFIX,legra.ph
+  - DOMAIN-SUFFIX,quiz.directory
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram.dog
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,telegram-cdn.org
+  - DOMAIN-SUFFIX,telesco.pe
+  - DOMAIN-SUFFIX,tg.dev
+  # Dropbox
+  - DOMAIN-SUFFIX,db.tt
+  - DOMAIN-SUFFIX,dropbox-dns.com
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropbox.tech
+  - DOMAIN-SUFFIX,dropbox.zendesk.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxbusiness.com
+  - DOMAIN-SUFFIX,dropboxcaptcha.com
+  - DOMAIN-SUFFIX,dropboxforum.com
+  - DOMAIN-SUFFIX,dropboxforums.com
+  - DOMAIN-SUFFIX,dropboxinsiders.com
+  - DOMAIN-SUFFIX,dropboxmail.com
+  - DOMAIN-SUFFIX,dropboxpartners.com
+  - DOMAIN-SUFFIX,dropboxstatic.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
+  - DOMAIN-SUFFIX,getdropbox.com
+  - DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
+
+  # Others
+  - DOMAIN-SUFFIX,duckduckgo.com
+
+  - DOMAIN-SUFFIX,wsj.com
+  - DOMAIN-SUFFIX,wsj.net
+
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,yahoo.com
