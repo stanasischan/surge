@@ -1,0 +1,39 @@
+payload:
+  # WorkBuddy / CodeBuddy 国际版官网、API、登录回调与客户端下载
+  - DOMAIN-SUFFIX,workbuddy.ai
+  - DOMAIN-SUFFIX,codebuddy.ai
+  - DOMAIN,workbuddy.cc
+  - DOMAIN,www.workbuddy.cc
+
+  # WorkBuddy 作品分享、托管应用与沙盒预览
+  - DOMAIN-SUFFIX,workbuddy.link
+  - DOMAIN-SUFFIX,app.workbuddy.host
+  - DOMAIN-SUFFIX,app-tencent.workbuddy.host
+  - DOMAIN-SUFFIX,workbuddy-sandbox.com
+  - DOMAIN-SUFFIX,workbuddy.agentos-worker.net
+
+  # 空间静态资源与国际生产环境的新加坡文件服务
+  - DOMAIN,workbuddy-space-static.codebuddy.work
+  - DOMAIN,smh38ewydmp37j7v.ap-singapore.api.tencentsmh.com
+
+  # 国际版登录风控与腾讯 OneID 企业登录
+  - DOMAIN,www.turingfraud.net
+  - DOMAIN-SUFFIX,account.tencentid.com
+  - DOMAIN,identity.tencentid.com
+
+  # 腾讯 OneID 按需加载的国际验证码
+  - DOMAIN,ca.turing.captcha.qcloud.com
+  - DOMAIN,global.turing.captcha.gtimg.com
+  - DOMAIN,global.captcha.gtimg.com
+  - DOMAIN,sg.captcha.qcloud.com
+
+  # 国际版登录页和客户端引导页的静态资源
+  - DOMAIN,acc-1258344699.cos.accelerate.myqcloud.com
+  - DOMAIN,codebuddy-1328495429.cos.accelerate.myqcloud.com
+  - DOMAIN,dscache-intl.cloudcachetci.com
+
+  # 腾讯云国际站入口与文档
+  - DOMAIN,tencentcloud.com
+  - DOMAIN,www.tencentcloud.com
+  - DOMAIN,intl.cloud.tencent.com
+  - DOMAIN,staticintl.cloudcachetci.com
